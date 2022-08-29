@@ -1,0 +1,69 @@
+<!--
+title: Интеграция с MaxiGraf
+description: 
+published: true
+date: 2022-08-28T06:27:58.700Z
+tags: лазер maxigraf
+editor: ckeditor
+dateCreated: 2022-08-28T05:41:35.071Z
+-->
+
+<h1 style="text-align:justify;">Работа с шаблонами MaxiGraf</h1>
+<h2 style="text-align:justify;">Требование к шаблону</h2>
+<p>Шаблон должен лежать в папке на рабочем компьютере MaxiGraf. &nbsp;&nbsp;По умолчанию: C:\!backup\1&nbsp;</p>
+<p>Объект для QR-кода должен называться «ШтрихКод»</p>
+<p>Объект для текста должен называться «Текст».&nbsp;</p>
+<p>Пример:</p>
+<figure class="image"><img src="/2022-08-28_09-07-04.png"></figure>
+<h2 style="text-align:justify;">Привязка шаблона к ресурсу</h2>
+<p style="text-align:justify;">Пункт меню:</p>
+<p style="text-align:justify;">Администрирование системы &gt; Управление основными данными (MDM) &gt; Ресурсы &gt; Связь ресурса с именем файла шаблона</p>
+<p style="text-align:justify;">Для добавления привязки ресурса к шаблону необходимо перейти в пункт меню и нажать кнопку добавить (горячая клавиша F7):</p>
+<figure class="image"><img src="/2022-08-28_09-09-13.png"></figure>
+<p style="text-align:center;">для&nbsp;web-клиента</p>
+<figure class="image"><img src="/2022-08-28_09-09-24.png" alt="для WIN клиента"></figure>
+<p style="text-align:center;">для обычного клиента</p>
+<p style="text-align:justify;">В открывшийся форме необходимо заполнить поля:</p>
+<ul>
+  <li style="text-align:justify;">Код – уникальный код в справочнике;</li>
+  <li style="text-align:justify;">Наименование шаблона в справочнике;</li>
+  <li style="text-align:justify;">Имя файла – имя файла шаблона с расширением (.le);</li>
+  <li style="text-align:justify;">Код ресурса – код ресурса, для которого применять данный шаблон</li>
+</ul>
+<figure class="image"><img src="/2022-08-28_09-11-41.png"></figure>
+<p style="text-align:justify;">По окончанию ввода нажать «Сохранить»</p>
+<figure class="image"><img src="/2022-08-28_09-11-54.png"></figure>
+<h1>Клиент MG&nbsp;Client</h1>
+<p>&nbsp;</p>
+<p>Для запуска приложения запустите файл MGClient.exe</p>
+<figure class="image"><img src="/2022-08-28_09-12-12.png"></figure>
+<p>Ждем запуска программы:</p>
+<figure class="image"><img src="/2022-08-28_09-12-26.png"></figure>
+<h2>Подключение к лазеру</h2>
+<p>Необходимо нажать кнопку «Запустить Maxi&nbsp;Graf»:</p>
+<figure class="image"><img src="/2022-08-28_09-12-42.png"></figure>
+<p>Дождаться запуска приложения «MaxiGraf», примерно 7-10 сек.&nbsp;</p>
+<p>После запуска приложения, станет доступна кнопка «Подключится», нажимаем ее для подключения к лазеру:</p>
+<figure class="image"><img src="/2022-08-28_09-12-54.png"></figure>
+<p>При успешном подключение, в журнале логов отобразится статус об успешной подключение:</p>
+<figure class="image"><img src="/2022-08-28_09-20-21.png"></figure>
+<h2>Маркировка</h2>
+<p>Для маркировки, необходимо отсканировать QR&nbsp;код, либо заполнить вручную в поле:</p>
+<figure class="image"><img src="/2022-08-28_09-20-32.png"></figure>
+<p>Нажимаем «Получить данные по QR»</p>
+<p>Приложение определит шаблон для детали, а так же параметры шаблона:</p>
+<figure class="image"><img src="/2022-08-28_09-20-42.png"></figure>
+<p>Далее с помощью «Панели управления», можно начать маркировку, нажав кнопку «Начать маркировку»:</p>
+<figure class="image"><img src="/2022-08-28_09-20-54.png"></figure>
+<p>Индикатор рядом с кнопкой, показывает текущий прогресс маркировки:&nbsp;</p>
+<figure class="image"><img src="/2022-08-28_09-21-05.png"></figure>
+<p>Отображается статус маркировки:&nbsp;</p>
+<figure class="image"><img src="/2022-08-28_09-25-06.png"></figure>
+<p>Заполняется журнал логов с результатом обработки:&nbsp;</p>
+<figure class="image"><img src="/2022-08-28_09-25-28.png"></figure>
+<p>При необходимости маркировку можно остановить, для этого нажмите кнопку «Остановить маркировку».</p>
+<h2>Конфигурирование</h2>
+<p>В папке с приложением лежит файл с настройками MGClient.exe.config</p>
+<figure class="image"><img src="/2022-08-28_09-25-44.png"></figure>
+<p>В файле можно поменять расположение exe&nbsp;файла приложения MaxiGraf&nbsp;и папку с шаблонами:</p>
+<figure class="image"><img src="/2022-08-28_09-25-53.png"></figure>
