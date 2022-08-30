@@ -16,8 +16,8 @@ dateCreated: 2022-08-29T08:44:45.264Z
 
 ## Создание бригады
 
-![](<../../.gitbook/assets/image (1024).png>)
+![](<../../assets/image (1024).png>)
 
 ## Состав бригады
 
-![](<../../.gitbook/assets/image (1016).png>)
+![](<../../assets/image (1016).png>)
