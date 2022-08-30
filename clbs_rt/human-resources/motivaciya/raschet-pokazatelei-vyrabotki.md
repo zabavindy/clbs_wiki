@@ -2,7 +2,7 @@
 title: Расчет показателей выработки
 description: Фиксация персонала за рабочими центрами
 published: true
-date: 2022-08-30T09:56:30.580Z
+date: 2022-08-30T09:56:41.379Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T09:22:13.547Z
