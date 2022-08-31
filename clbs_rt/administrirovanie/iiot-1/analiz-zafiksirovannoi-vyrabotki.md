@@ -18,28 +18,27 @@ dateCreated: 2022-08-29T08:44:45.264Z
 
 * [PRODUCTIONREGISTRATION](../../planirovshik-zadach/productionregistration.md) - основной режим получения данных для выработки
 * [\_PRODREGSHIFT](../../planirovshik-zadach/\_prodregshift.md) - режим закрывающий смены
-{% endhint %}
 
-![](<../../../assets/image (395).png>)
+![](<../../assets/image (395).png>)
 
 1. Список событий для выработки (данные на основании IIoT с настроенными [рабочими центрами](../../../upravlenie-proizvodstvom/nsi-proizvodstvo/rabochie-centry/#iiot) на автоматический учет)
 2. [Строка выработки](../../../uchet/dokumenty-vyrabotki/vyrabotka/) на выделенное событие
 
 Событие которое формирует выработку (настройка с каким горизонтом брать не обработанные события - не старше 5 часов)
 
-![](<../../../assets/image (245).png>)
+![](<../../assets/image (245).png>)
 
 Строки событий отмеченные цветом и с разницей во времени = 0 "с..." и "по..." это строки добавленные планировщиком [PRODUCTIONREGISTRATION](../../planirovshik-zadach/productionregistration.md#obrabotka-dlya-rc-tk) по условию отклонения данных IIoT и выработки
 
-![](<../../../assets/image (752).png>)
+![](<../../assets/image (752).png>)
 
 ## Ручные данные
 
-![](<../../../assets/image (388).png>)
+![](<../../assets/image (388).png>)
 
 Добавление данных для регистрации (F7)
 
-![](<../../../assets/image (366).png>)
+![](<../../assets/image (366).png>)
 
 * Идентификатор
 * Рабочий центр - ограничено группой рабочих центров МЛД

@@ -1,10 +1,19 @@
+---
+title: _SUPER_INDEX
+description: 
+published: true
+date: 2022-08-29T09:02:42.934Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-29T08:44:45.264Z
+---
 # \_SUPER\_INDEX
 
 Для высоконагруженных баз Reorganize является более предпочтительным чем Rebuild потому что не вызывает блокировок
 
 [https://docs.microsoft.com/ru-ru/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15](https://docs.microsoft.com/ru-ru/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15)
 
-![](<../../.gitbook/assets/0 (80)>)
+![](<../../assets/0 (80)1.png>)
 
 Работа робота разбита на 3 этапа (приоритета)
 
@@ -17,6 +26,5 @@
 
 Собственно для каждой записи выполняется Reorganize
 
-{% hint style="danger" %}
-**Важно**: для исключения коллизий, робот объединен в одну группу с системным планировщиком INDEX\_DEFRAGMENTATION\_DOCUMENTS, что обеспечивает поочередный запуск планировщиков
-{% endhint %}
+>**Важно**: для исключения коллизий, робот объединен в одну группу с системным планировщиком INDEX\_DEFRAGMENTATION\_DOCUMENTS, что обеспечивает поочередный запуск планировщиков
+

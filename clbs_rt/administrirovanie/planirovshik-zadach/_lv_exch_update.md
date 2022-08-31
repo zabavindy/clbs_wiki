@@ -1,8 +1,15 @@
+---
+title: _LV_EXCH_UPDATE
+description: 
+published: true
+date: 2022-08-29T09:02:42.934Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-29T08:44:45.264Z
+---
 # \_LV\_EXCH\_UPDATE
 
-{% hint style="info" %}
-Отрабатывает с заданной периодичностью - раз в 90 минут
-{% endhint %}
+>Отрабатывает с заданной периодичностью - раз в 90 минут
 
 [Данные записываются в таблицу LV\_EXCH_\__](../../uchet/otgruzka-produkcii/ukladka-po-dannym-lv.md)__
 
