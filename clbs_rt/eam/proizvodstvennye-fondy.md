@@ -7,6 +7,7 @@ tags:
 editor: markdown
 dateCreated: 2022-08-29T08:44:45.264Z
 ---
+
 # Производственные фонды
 
 * [Управление производственными фондами](upravlenie-proizvodstvennymi-fondami.md)
