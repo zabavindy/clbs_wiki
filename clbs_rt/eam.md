@@ -1,11 +1,11 @@
 ---
-title: ENTERPRISE ASSET MANAGEMENT
-description:
+title: [012] ENTERPRISE ASSET MANAGEMENT
+description: 
 published: true
-date: 2022-08-29T09:02:42.934Z
+date: 2022-09-05T22:32:51.342Z
 tags: 
 editor: markdown
-dateCreated: 2022-08-29T08:44:45.264Z
+dateCreated: 2022-08-31T08:16:37.493Z
 ---
 
 # ENTERPRISE ASSET MANAGEMENT
