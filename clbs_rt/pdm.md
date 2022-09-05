@@ -1,8 +1,8 @@
 ---
-title: [3] PRODUCT DATA MANAGER
+title: [003] PRODUCT DATA MANAGER
 description: Управление архивом технической документации
 published: true
-date: 2022-09-05T22:22:19.782Z
+date: 2022-09-05T22:28:06.948Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T08:31:57.296Z
