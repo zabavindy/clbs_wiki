@@ -2,7 +2,7 @@
 title: [1] БИЗНЕС-ПРОЦЕССЫ
 description: Описание бизнес-процессов
 published: true
-date: 2022-09-05T22:20:07.967Z
+date: 2022-09-05T22:20:55.245Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T08:12:17.345Z
