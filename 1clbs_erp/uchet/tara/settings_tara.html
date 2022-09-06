@@ -2,7 +2,7 @@
 title: Настройки по учету тары
 description: Описание моделей конфигурирования по учету тары
 published: true
-date: 2022-09-06T07:40:35.868Z
+date: 2022-09-06T07:47:53.172Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-09-05T22:54:18.118Z
@@ -34,7 +34,7 @@ bool Comparison(string _str1,string _str2)
 }
 return Comparison(KOBJ,"1");</code></pre>
 <p style="text-align:justify;">&nbsp;</p>
-<p style="text-align:justify;"><strong>Используемые&nbsp;библиотеки&nbsp;по&nbsp;умолчанию</strong></p>
+<p style="text-align:justify;">Используемые&nbsp;библиотеки&nbsp;по&nbsp;умолчанию</p>
 <pre><code class="language-cs">using&nbsp;ITnet2.Common.Tools;
 using&nbsp;ITnet2.Common.Data;
 using&nbsp;ITnet2.Common.Dialogs;
@@ -82,7 +82,70 @@ using&nbsp;ITnet2.Server.BusinessLogic.MP.PDM;</code></pre>
 <blockquote>
   <p>Логистика &gt; Управление тарой &gt; Настройки&nbsp;&gt; Виды тары</p>
 </blockquote>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p>В данный интерфейс заносятся виды тары</p>
+<figure class="image"><img src="/viditar1.png"></figure>
+<p>Описание формы добавления</p>
+<p style="text-align:justify;">Вкладка "Основное"</p>
+<figure class="image"><img src="/viditar1form1.png"></figure>
+<ol>
+  <li style="text-align:justify;">Признак "Действует/Отменена";</li>
+  <li style="text-align:justify;">Указываем символьный код;</li>
+  <li style="text-align:justify;">Полное наименование вида тары;</li>
+  <li style="text-align:justify;">Сокращённое наименование вида тары;</li>
+  <li style="text-align:justify;">Метод на языке&nbsp;C# возвращающий номер тары в справочник инвентарных номеров тары при выборе данного вида.</li>
+</ol>
+<p style="text-align:justify;">В возвращаемом коде знак «#» означает место расположения нумерации и её длину.</p>
+<p style="text-align:justify;">Пример:</p>
+<pre><code class="language-cs">var KOBJ = Settings.Environment.ObjCode;
+var NOBJ = SqlClient.CreateCommand($"select NOBJ from OBJ where KOBJ='{KOBJ}'").ExecScalar&lt;string&gt;();
+return NOBJ +&nbsp;"######";</code></pre>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">Написанный код попадает внутрь метода и для использования методов пользуйтесь локальными функциями&nbsp;</p>
+<p style="text-align:justify;">Пример:</p>
+<pre><code class="language-cs">var KOBJ = Settings.Environment.ObjCode;
+string&nbsp;GetKod()
+{
+var NOBJ = SqlClient.CreateCommand($"select NOBJ from OBJ where KOBJ='{KOBJ}'").ExecScalar&lt;string&gt;();
+
+return NOBJ +&nbsp;"######"; 
+}
+return GetKod();</code></pre>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">Используемые&nbsp;библиотеки&nbsp;по&nbsp;умолчанию</p>
+<pre><code class="language-cs">using&nbsp;ITnet2.Common.Tools;
+using&nbsp;ITnet2.Common.Data;
+using&nbsp;ITnet2.Common.Dialogs;
+using&nbsp;ITnet2.Server.Dialogs.InputFormCore;
+using&nbsp;ITnet2.Server.Controls;
+using&nbsp;ITnet2.Server.Dialogs;
+using&nbsp;ITnet2.Server.Data;
+using&nbsp;ITnet2.Server.Data.Tables;
+using&nbsp;ITnet2.Server.Session;
+using&nbsp;ITnet2.Server.Session.Operations;
+using&nbsp;ITnet2.Server.Email;
+using&nbsp;System;
+using&nbsp;System.Text;
+using&nbsp;System.Collections.Generic;
+using&nbsp;System.Linq;
+using&nbsp;ITnet2.Server.BusinessLogic.Scenario.Dependencies;
+using&nbsp;ITnet2.Server.BusinessLogic.Scenario.EventModel;
+using&nbsp;ITnet2.Server.BusinessLogic.Scenario.APS;
+using&nbsp;ITnet2.Server.BusinessLogic.Core.Events;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.Scenario;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.PLT;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.PLAN;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.MES;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.TDM;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.PDM;</code></pre>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">Если нет необходимых библиотек, то указывайте путь полностью, например:</p>
+<pre><code class="language-cs">ITnet2.Server.Session.InfoManager.MessageBox("Hello World");</code></pre>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">Вкладка “Параметры характеристик”</p>
+<p style="text-align:justify;">На данной вкладке показаны характеристики и их настройка для выбранного вида тары, применяемые в интерфейсе <a href="http://wiki.clbs.digital/ru/1clbs_erp/uchet/tara/nsi_tara#справочник-инвентарных-номеров-тары">Справочник инвентарных номеров тары</a> на форме добавления.</p>
+<figure class="image"><img src="/viditar1form2.png"></figure>
+<ol>
+  <li style="text-align:justify;">Поле не будет обязательным для заполнения;</li>
+  <li style="text-align:justify;">Поле не будет показано на вкладке «Характеристики»;</li>
+  <li style="text-align:justify;">Поле будет обязательным для заполнения.</li>
+</ol>
