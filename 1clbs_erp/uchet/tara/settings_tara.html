@@ -2,7 +2,7 @@
 title: Настройки по учету тары
 description: Описание моделей конфигурирования по учету тары
 published: true
-date: 2022-09-06T07:13:24.061Z
+date: 2022-09-06T07:36:08.559Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-09-05T22:54:18.118Z
@@ -26,23 +26,47 @@ dateCreated: 2022-09-05T22:54:18.118Z
   <li style="text-align:justify;">Код проверки правила на языке&nbsp;C# возвращающий значения типа&nbsp;bool.</li>
 </ol>
 <p style="text-align:justify;">Пример:</p>
-<p><code>var KOBJ = Settings.Environment.ObjCode;</code></p>
-<p><code>return KOBJ ==&nbsp;"1";</code></p>
+<pre><code class="language-cs">var KOBJ = Settings.Environment.ObjCode;
+return KOBJ == "1";</code></pre>
 <p style="text-align:justify;">&nbsp;</p>
 <p style="text-align:justify;">Написанный код попадает внутрь метода и для использования методов проверки пользуйтесь локальными функциями&nbsp;</p>
 <p style="text-align:justify;">Пример:</p>
-<p><span class="text-tiny"><code>var KOBJ = Settings.Environment.ObjCode;</code></span></p>
-<p><span class="text-tiny"><code>bool Comparison(string _str1,string _str2)</code></span></p>
-<p><span class="text-tiny"><code>{</code></span></p>
-<p><span class="text-tiny"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return _str1==_str2;</code></span></p>
-<p><span class="text-tiny"><code>}</code></span></p>
-<p style="text-align:justify;"><code>return Comparison(KOBJ,"1");</code></p>
+<pre><code class="language-cs">var KOBJ = Settings.Environment.ObjCode;
+bool Comparison(string _str1,string _str2)
+{
+ &nbsp;&nbsp;&nbsp;&nbsp; return _str1==_str2;
+}
+return Comparison(KOBJ,"1");</code></pre>
 <p style="text-align:justify;">&nbsp;</p>
 <p style="text-align:justify;"><strong>Используемые&nbsp;библиотеки&nbsp;по&nbsp;умолчанию</strong></p>
-<p style="text-align:justify;"><code>using&nbsp;ITnet2.Common.Tools;</code><br><code>using&nbsp;ITnet2.Common.Data;</code><br><code>using&nbsp;ITnet2.Common.Dialogs;</code><br><code>using&nbsp;ITnet2.Server.Dialogs.InputFormCore;</code><br><code>using&nbsp;ITnet2.Server.Controls;</code><br><code>using&nbsp;ITnet2.Server.Dialogs;</code><br><code>using&nbsp;ITnet2.Server.Data;</code><br><code>using&nbsp;ITnet2.Server.Data.Tables;</code><br><code>using&nbsp;ITnet2.Server.Session;</code><br><code>using&nbsp;ITnet2.Server.Session.Operations;</code><br><code>using&nbsp;ITnet2.Server.Email;</code><br><code>using&nbsp;System;</code><br><code>using&nbsp;System.Text;</code><br><code>using&nbsp;System.Collections.Generic;</code><br><code>using&nbsp;System.Linq;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.Scenario.Dependencies;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.Scenario.EventModel;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.Scenario.APS;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.Core.Events;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.MP.Scenario;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.MP.PLT;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.MP.PLAN;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.MP.MES;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.MP.TDM;</code><br><code>using&nbsp;ITnet2.Server.BusinessLogic.MP.PDM;</code></p>
+<pre><code class="language-cs">using&nbsp;ITnet2.Common.Tools;
+using&nbsp;ITnet2.Common.Data;
+using&nbsp;ITnet2.Common.Dialogs;
+using&nbsp;ITnet2.Server.Dialogs.InputFormCore;
+using&nbsp;ITnet2.Server.Controls;
+using&nbsp;ITnet2.Server.Dialogs;
+using&nbsp;ITnet2.Server.Data;
+using&nbsp;ITnet2.Server.Data.Tables;
+using&nbsp;ITnet2.Server.Session;
+using&nbsp;ITnet2.Server.Session.Operations;
+using&nbsp;ITnet2.Server.Email;
+using&nbsp;System;
+using&nbsp;System.Text;
+using&nbsp;System.Collections.Generic;
+using&nbsp;System.Linq;
+using&nbsp;ITnet2.Server.BusinessLogic.Scenario.Dependencies;
+using&nbsp;ITnet2.Server.BusinessLogic.Scenario.EventModel;
+using&nbsp;ITnet2.Server.BusinessLogic.Scenario.APS;
+using&nbsp;ITnet2.Server.BusinessLogic.Core.Events;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.Scenario;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.PLT;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.PLAN;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.MES;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.TDM;
+using&nbsp;ITnet2.Server.BusinessLogic.MP.PDM;</code></pre>
 <p style="text-align:justify;">&nbsp;</p>
 <p style="text-align:justify;">Если нет необходимых библиотек, то указывайте путь полностью, например:</p>
-<p style="text-align:justify;"><code>ITnet2.Server.Session.InfoManager.MessageBox("Hello World");</code></p>
+<pre><code class="language-cs">ITnet2.Server.Session.InfoManager.MessageBox("Hello World");</code></pre>
 <h1>Правила учета тары</h1>
 <blockquote>
   <p>Логистика &gt; Управление тарой &gt; Настройки&nbsp;&gt; Правила учёта тары</p>
