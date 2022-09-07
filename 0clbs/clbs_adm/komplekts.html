@@ -2,7 +2,7 @@
 title: Развернутые комплекты клиентов
 description: 
 published: true
-date: 2022-08-27T20:37:45.680Z
+date: 2022-09-07T12:51:03.614Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-08-23T10:25:09.606Z
@@ -15,6 +15,7 @@ dateCreated: 2022-08-23T10:25:09.606Z
         <th>Ссылка</th>
         <th>Клиент</th>
         <th>Явки пароли</th>
+        <th>Базы данных</th>
         <th>Комментарии</th>
       </tr>
     </thead>
@@ -23,22 +24,37 @@ dateCreated: 2022-08-23T10:25:09.606Z
         <td>https://dev.clbs.digital/MICRON_RMD/</td>
         <td>Микрон</td>
         <td>CLBS (<strong>Пароль CLBS12</strong>),LITVIN_A</td>
+        <td>
+          <p>micron</p>
+          <p>micron_sysdb</p>
+        </td>
         <td>&nbsp;</td>
       </tr>
       <tr>
         <td>https://dev.clbs.digital/RTR_CLBS/</td>
         <td>Комплект RTR</td>
         <td>Аналогично как на RTR +&nbsp;<br>HARKOV (<strong>пароль harkov</strong>)</td>
-        <td>&nbsp;</td>
+        <td>
+          <p>RTR_CLBS</p>
+          <p>RTR_CONTENT_CLBS</p>
+          <p>RTR_SYSDB_CLBS</p>
+        </td>
+        <td>&nbsp;Это Копия RTR</td>
       </tr>
       <tr>
         <td>https://dev.clbs.digital/CHELZINC_RMD</td>
         <td>ЧЦЗ</td>
         <td>CLBS (<strong>Пароль CLBS12</strong>), ORESHKIN_A,LITVIN_A,GRITSENKO_A</td>
+        <td>
+          <p>CHELZINC</p>
+          <p>CHELZINC_CONTENT</p>
+          <p>CHELZINC_SYS</p>
+        </td>
         <td>&nbsp;</td>
       </tr>
       <tr>
         <td><mark class="marker-pink">https://dev.clbs.digital/clientRMD/</mark></td>
+        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td><mark class="marker-pink">Не понятно что, не работает</mark></td>
@@ -47,13 +63,50 @@ dateCreated: 2022-08-23T10:25:09.606Z
         <td><mark class="marker-pink">https://dev.clbs.digital/ALUR_CLBS/</mark></td>
         <td><mark class="marker-pink">Алюр</mark></td>
         <td>&nbsp;</td>
+        <td>
+          <p>ALUR</p>
+          <p>ALUR_CONTENT</p>
+          <p>ALUR_SYSDB</p>
+        </td>
         <td><mark class="marker-pink">Вообще не работает, но по-моему мы так и не развернули их, запуск службы настроен на <strong>ВРУЧНУЮ</strong></mark></td>
       </tr>
       <tr>
         <td>https://dev.clbs.digital/AEK_RMD/</td>
         <td>АЕК</td>
         <td>CLBS (<strong>Пароль CLBS</strong>)</td>
+        <td>
+          <p>cabcloud</p>
+          <p>cabcloud_seg1</p>
+          <p>cabcloud_sys</p>
+        </td>
+        <td>&nbsp;cabcloud_seg1 - похоже не нужна и подлежит удалению</td>
+      </tr>
+      <tr>
         <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>
+          <p>CLBS_TS</p>
+          <p>CLBS_TS_SYS</p>
+        </td>
+        <td><strong>Временная, какие-то тесты для Гриценко</strong></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>
+          <p>CLBSCABLE</p>
+          <p>CLBSCABLE_SYS</p>
+        </td>
+        <td><strong>Тестовый Демо комплект, в процессе разворота</strong></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>WIKI</td>
+        <td><strong>Из названия понятна высокая важность, это для нашего WIKI</strong></td>
       </tr>
       <tr>
         <td>&nbsp;https://dev.clbs.digital/OKBKP_RMD/</td>
@@ -61,6 +114,11 @@ dateCreated: 2022-08-23T10:25:09.606Z
         <td>
           <p>IT_KM<br>Пароль IT_KM12</p>
           <p>LITVIN_A,GRITSENKO_ &nbsp;<br>CLBS пароль CLBS12<br><br>IT_<i>TIG,IT_OSS</i></p>
+        </td>
+        <td>
+          <p>OKBKP</p>
+          <p>OKBKP_SYS</p>
+          <p>OKPKB_CON</p>
         </td>
         <td>Там только ошибки есть из-за неправильной файловой части, они ее не предоставили</td>
       </tr>
