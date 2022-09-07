@@ -2,10 +2,20 @@
 title: MPS Планирование
 description: MPS Планирование
 published: true
-date: 2022-09-01T08:52:53.718Z
+date: 2022-09-07T09:16:50.290Z
 tags: mps
 editor: ckeditor
 dateCreated: 2022-09-01T08:52:53.718Z
 -->
 
-<p>!</p>
+<p>Для Запуска MPS Планирования необходимо нажать&nbsp;</p>
+<p>“Сформировать MPS план по заказам в производство”</p>
+<figure class="image"><img src="/micronmps/mpsstart.png"></figure>
+<p>&nbsp;</p>
+<p>В Результате в план попадут заказе, которых нету в MPS плане, по которым осуществлена разбивка по паллетам. (Если есть заказ со строками, но без разбивки по паллетам, то система уведомит и не даст сформировать MPS план).<br><br>Строки MPS плана создают строка к строке с разбивкой по паллетам в заказе</p>
+<figure class="image"><img src="/micronmps/mps.png"></figure>
+<p>&nbsp;</p>
+<figure class="image"><img src="/micronmps/palletinterpretation.png"></figure>
+<p>&nbsp;</p>
+<p>Также следует отметить, что ID строки разбивки храниться в расширении к таблице PLA_EXT в столбце ID_PAL_</p>
+<figure class="image"><img src="/micronmps/pla_ext.png"></figure>
