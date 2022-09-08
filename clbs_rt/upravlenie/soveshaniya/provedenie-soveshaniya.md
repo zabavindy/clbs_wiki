@@ -1,5 +1,11 @@
 ---
+title: Проведение совещания
 description: Описание стадий по проведению совещаний
+published: true
+date: 2022-09-08T11:32:19.230Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:43:52.129Z
 ---
 
 # Проведение совещания
