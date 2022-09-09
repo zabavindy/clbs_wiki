@@ -2,25 +2,21 @@
 title: Разворот комплекта от клиента на clbs.dev
 description: 
 published: true
-date: 2022-08-27T20:39:04.475Z
+date: 2022-09-09T12:50:02.736Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-08-22T09:21:33.851Z
 -->
 
-<h1>&nbsp;</h1>
-<p>&nbsp;</p>
 <h1>Как правильно развернуть комплект</h1>
-<ol>
-  <li><strong>Разложить папочки</strong></li>
-</ol>
+<h1><strong>Разложить папочки</strong></h1>
 <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Файловую часть</strong> в E:\CLBS_PR\</p>
 <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;WebRmd</strong>&nbsp;в E:\sites\</p>
 <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Базу</strong> в C:\CLBS</p>
 <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Серверную&nbsp;и&nbsp;клиентскую&nbsp;части</strong>&nbsp;в C:\Program Files\IT-Enterprise\</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><strong>2. В&nbsp;Папке E:\CLBS_PR\MICRON_CLBS\SYSDBF&nbsp; файл Config.IT</strong></p>
+<h1><strong>2. В&nbsp;Папке E:\CLBS_PR\MICRON_CLBS\SYSDBF&nbsp; файл Config.IT</strong></h1>
 <p>Пример заполнения&nbsp;файла</p>
 <p><mark class="marker-yellow"><u>CFG_SQL&nbsp; &nbsp; &nbsp; = DRIVER={SQL Server}; SERVER={DBS\SQL2019}; UID={sa}; PWD={123ewq}; DATABASE={micron}; Network={DBMSSOCN}; APP={IT.%DATABASE%}; WSID={%WSID%}</u></mark></p>
 <p><mark class="marker-yellow"><u>CFG_SQLYYY&nbsp; &nbsp;= DRIVER={SQL Server}; SERVER={DBS\SQL2019}; DATABASE={micron_sysdb}; Network={DBMSSOCN}; APP={IT.%DATABASE%}; WSID={%WSID%}</u></mark></p>
@@ -42,9 +38,7 @@ dateCreated: 2022-08-22T09:21:33.851Z
 <p>LDAP&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=&nbsp;</p>
 <p>DS_EDRPOU&nbsp; &nbsp; =&nbsp;</p>
 <p>VFPONDEMAND&nbsp; =</p>
-<p>&nbsp;</p>
-<p><strong>3. Правим ItNet.Server.exe.Xml&nbsp;в C:\Program Files\IT-Enterprise\MICRON_CLBS\SERVER</strong></p>
-<p>&nbsp;</p>
+<h1><strong>3. Правим ItNet.Server.exe.Xml&nbsp;в C:\Program Files\IT-Enterprise\MICRON_CLBS\SERVER</strong></h1>
 <p>Его&nbsp;пример</p>
 <p>&lt;?xml version="1.0" encoding="utf-8"?&gt;</p>
 <p>&lt;configuration&gt;</p>
@@ -76,7 +70,7 @@ dateCreated: 2022-08-22T09:21:33.851Z
 <p>&nbsp;</p>
 <p>Для&nbsp;Нас&nbsp;заносим&nbsp;в&nbsp;Файл&nbsp;выбранный&nbsp;порт: C:\CLBS\Порты CLBS.txt</p>
 <p>&nbsp;</p>
-<p><strong>4. Правим конфиги Клиента</strong></p>
+<h1><strong>4. Правим конфиги Клиента</strong></h1>
 <p>C:\Program Files\IT-Enterprise\MICRON_CLBS\CLIENT\ITClient.exe.xml</p>
 <p>Пример Файла</p>
 <p>&lt;?xml version="1.0" encoding="utf-8"?&gt;</p>
@@ -108,7 +102,7 @@ dateCreated: 2022-08-22T09:21:33.851Z
 <p>&nbsp; &lt;/system.net&gt;</p>
 <p>&lt;/configuration&gt;</p>
 <p>&nbsp;</p>
-<p><strong>5. Подготовить и запустить службу</strong></p>
+<h1><strong>5. Подготовить и запустить службу</strong></h1>
 <p><strong>В командной строке для создания службы (изменить имя службы, binpath, displayname),&nbsp;CMD&nbsp;запускать от имени администратора:</strong></p>
 <p>&nbsp;</p>
 <p>obj=user_adm password= a9;i6F!J2z</p>
@@ -127,12 +121,12 @@ dateCreated: 2022-08-22T09:21:33.851Z
 <p>sc config IT_Server_AEK .... параметры для изменения, как в create</p>
 <p><a href="https://dev.azure.com/CLBSDIGITAL/CLBS/_wiki/wikis/CLBS.wiki/51/Создание-службы-ИТЕ">https://dev.azure.com/CLBSDIGITAL/CLBS/_wiki/wikis/CLBS.wiki/51/Создание-службы-ИТЕ</a></p>
 <p>&nbsp;</p>
-<p><strong>6. Подменить SessionCore&nbsp;</strong></p>
+<h1><strong>6. Подменить SessionCore&nbsp;</strong></h1>
 <p>Запросить у Литвин или Гриценко нужную версию, посмотреть ее в свойствах файла Itnet2.Server.SessionCore.dll&nbsp;в папке сервера (C:\Program Files\IT-Enterprise\MICRON_CLBS\SERVER)</p>
 <figure class="image"><img src="/2.png"></figure>
 <p>&nbsp;</p>
-<p><strong>7. Запустить Службу</strong></p>
-<p><strong>8. Создать пользователя если нету пароля</strong></p>
+<h1><strong>7. Запустить Службу</strong></h1>
+<h1><strong>8. Создать пользователя если нету пароля</strong></h1>
 <p>В CMD&nbsp;выполнить whoami /user</p>
 <p>И Забрать SID</p>
 <figure class="image"><img src="/3.png"></figure>
@@ -141,23 +135,23 @@ dateCreated: 2022-08-22T09:21:33.851Z
 <p>WIN_USER='S-1-5-21-1247624279-2500794307-2618218875-1013'</p>
 <p>where USERID='IT_OVSS'</p>
 <p>&nbsp;</p>
-<p><strong>9. Изготовить Лицензию. (Делает Гриценко или Литвин)</strong></p>
+<h1><strong>9. Изготовить Лицензию. (Делает Гриценко или Литвин)</strong></h1>
 <figure class="image"><img src="/4.png"></figure>
 <p>&nbsp;</p>
-<p><strong>9. Развернуть WebRMD</strong></p>
+<h1><strong>9. Развернуть WebRMD</strong></h1>
 <p>E:\sites\MICRON_RMD</p>
 <p>Исправить AppSettings</p>
 <p><strong>Пример</strong></p>
 <p><strong>&lt;?xml version="1.0" standalone="yes"?&gt;</strong></p>
 <p>&lt;appSettings&gt;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<mark class="marker-yellow">&nbsp; &lt;add key="ApplicationServers" value="DBS:8170 /secure /encrypt"/&gt;</mark></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <mark class="marker-yellow">&nbsp; &lt;add key="ApplicationServers" value="DBS:8170 /secure /encrypt"/&gt;</mark></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;add key="ApplicationServersId" value=""/&gt;</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;add key="ProjectCode" value="it_ru"/&gt;</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;add key="Iconset" value="Clbs"/&gt;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<mark class="marker-pink">&nbsp;&nbsp; &lt;add key="AllowWinAuth" value="True"/&gt;</mark> -&nbsp;Удалить&nbsp;Нахер,&nbsp;она&nbsp;рождает&nbsp;неправильный web.config</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <mark class="marker-pink">&nbsp;&nbsp; &lt;add key="AllowWinAuth" value="True"/&gt;</mark> -&nbsp;Удалить&nbsp;Нахер,&nbsp;она&nbsp;рождает&nbsp;неправильный web.config</p>
 <p>&lt;/appSettings&gt;</p>
 <p>&nbsp;</p>
-<p>Добавить приложение на IIS</p>
+<h1>Добавить приложение на IIS</h1>
 <figure class="image"><img src="/5.png"></figure>
 <p><strong>Дополнительно:</strong></p>
 <p><strong>Создать пользователей&nbsp;Gritsenko_ и&nbsp;Litvin_a,&nbsp;zabavin_d,lisitsin_a&nbsp;с админскими правами, паролем 123456, и флажком сменить пароль</strong></p>
