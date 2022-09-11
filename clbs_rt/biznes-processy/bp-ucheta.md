@@ -1,3 +1,13 @@
+---
+title: БП Учета
+description: 
+published: true
+date: 2022-09-11T17:26:49.930Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:12:41.869Z
+---
+
 # БП Учета
 
 ## Бизнес-процессы поступления
