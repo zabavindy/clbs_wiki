@@ -2,7 +2,7 @@
 title: БП.Управление закупками
 description: Общая схема управления закупочной деятельностью
 published: true
-date: 2022-09-11T16:23:22.100Z
+date: 2022-09-11T16:24:17.504Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T08:15:22.071Z
