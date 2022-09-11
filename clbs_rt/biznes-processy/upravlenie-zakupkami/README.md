@@ -1,10 +1,16 @@
 ---
+title: БП.Управление закупками
 description: Общая схема управления закупочной деятельностью
+published: true
+date: 2022-09-11T16:23:22.100Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:15:22.071Z
 ---
 
 # БП.Управление закупками
 
-![](<../../.gitbook/assets/image (300).png>)
+![](<../../assets/image (300).png>)
 
 Список бизнес-процессов
 
