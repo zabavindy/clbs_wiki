@@ -1,3 +1,13 @@
+---
+title: БП КДУ
+description: 
+published: true
+date: 2022-09-11T17:29:57.516Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:12:23.495Z
+---
+
 # БП КДУ
 
 ## Бизнес-процессы согласования договоров
