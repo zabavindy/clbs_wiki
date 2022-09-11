@@ -1,8 +1,8 @@
 ---
-title: prosmotr-klassifikatora-resursov
+title: Классификатор ресурсов
 description: Инструкция по работе со справочником ресурсов
 published: true
-date: 2022-09-11T17:52:51.476Z
+date: 2022-09-11T17:53:35.984Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:17:38.446Z
