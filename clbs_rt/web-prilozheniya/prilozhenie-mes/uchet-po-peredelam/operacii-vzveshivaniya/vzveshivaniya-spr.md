@@ -12,6 +12,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 ## Взвешивание при выработке
 
+
 Фиксация веса производится в момент [Регистрация выработки](../../registraciya-mekhobrabotki/registraciya-na-lpr.md)
 
 ## [Взвешивание лома](vzveshivanie-loma-na-spr.md)

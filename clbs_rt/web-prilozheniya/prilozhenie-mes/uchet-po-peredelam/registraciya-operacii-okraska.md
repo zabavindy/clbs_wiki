@@ -10,6 +10,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 # Регистрация операции окраска
 
+
 * АБР Окраска
   * [Установка на линии окраски](abr-okraska/ustanovka-okraska.md)
   * [Учет брака на линиях окраски](abr-okraska/uchet-braka.md)
