@@ -35,9 +35,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 ### Создание ресурса по классификатору ЕСКД
 
-{% hint style="info" %}
-При условии наличия выбранной группы ресурса в справочнике [Классификатор ЕСКД](../../upravlenie-mdm/klassifikator-resursov/klassifikator-eskd.md)
-{% endhint %}
+>При условии наличия выбранной группы ресурса в справочнике [Классификатор ЕСКД](../../upravlenie-mdm/klassifikator-resursov/klassifikator-eskd.md)
 
 ![](<../../assets/image (774).png>)
 

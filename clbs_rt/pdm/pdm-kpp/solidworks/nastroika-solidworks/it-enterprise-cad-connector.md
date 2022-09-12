@@ -93,9 +93,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 &#x20;![](<../../../../assets/17 (4).png>)
 
-{% hint style="info" %}
-Рекомендованный путь: C:\temp\itarchive
-{% endhint %}
+>Рекомендованный путь: C:\temp\itarchive
 
 ![](<../../../../assets/18 (2).png>)
 

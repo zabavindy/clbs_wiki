@@ -1,24 +1,29 @@
 ---
+title: Установка SW PDM Browser
 description: Установка SW PDM Browser (CAD Connector)
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # Установка SW PDM Browser
 
-{% hint style="info" %}
-Управление производством → Интеграция с SolidWorks → Настройка → Установка SolidWorks PDM Browser (CAD Connector)
-{% endhint %}
+>Управление производством → Интеграция с SolidWorks → Настройка → Установка SolidWorks PDM Browser (CAD Connector)
+
 
 ## Установка CAD Connector
 
-![](<../../../../.gitbook/assets/0 (3).png>)
+![](<../../../../assets/0 (3).png>)
 
 В открывшемся окне проваливаемся в диск С , создаем в нем папку, присваиваем ей имя. Нажимаем ОК.
 
-![](<../../../../.gitbook/assets/1 (63).png>)
+![](<../../../../assets/1 (63).png>)
 
 Запускаем установщик.
 
-![](<../../../../.gitbook/assets/2 (118).png>)
+![](<../../../../assets/2 (118).png>)
 
 Проводим установку
 
@@ -26,8 +31,7 @@ description: Установка SW PDM Browser (CAD Connector)
 
 При каждом старте SolidWorks и обращению к IT-Enterprise система проверяет актуальность версии. При появлении обновления предлагает установить. После скачивания необходимо запустить установку!
 
-![](<../../../../.gitbook/assets/image (818).png>)
+![](<../../../../assets/image (818).png>)
 
-{% hint style="info" %}
-Обязательно использовать последнюю версию
-{% endhint %}
+>Обязательно использовать последнюю версию
+
