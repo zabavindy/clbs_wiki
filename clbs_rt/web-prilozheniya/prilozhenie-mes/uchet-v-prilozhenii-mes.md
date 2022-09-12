@@ -9,6 +9,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 ---
 # Учет в приложении
 
+
 * [MES Готовая продукция](mes-gotovaya-produkciya/)
   * [Готовая продукция](mes-gotovaya-produkciya/gotovaya-produkciya.md)
 * [MES Брак/Переработка](mes-brak-pererabotka/)

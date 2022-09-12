@@ -10,6 +10,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 # MES Установка и Выработка
 
+
 * [Задание и установки](zadaniya-i-ustanovki.md)
 * [Журнал работ](zhurnal-rabot.md)
 * [Установка партий материалов](ustanovka-partii-materialov.md)
