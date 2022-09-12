@@ -1,24 +1,30 @@
 ---
+title: Информационные сообщения
 description: Описание информационных сообщений
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # Информационные сообщения
 
 ## Не удалось определить подходящую операцию
 
-![](<../../../.gitbook/assets/image (803).png>)
+![](<../../../assets/image (803).png>)
 
 В случае когда версия техпроцесса в Карте раскроя и Зачистке не совпадает. Необходимо актуализировать техпроцесс в карте раскроя. [Инструкция](../../../upravlenie-proizvodstvom/mrp-planirovanie/zakazy-na-proizvodstvo-1.md#aktualizirovat-tp-v-kr)
 
 ## Диаметр ресурса не подходит для установки на РЦ
 
-![](<../../../.gitbook/assets/image (118).png>)
+![](<../../../assets/image (118).png>)
 
 Контроль установленных материалов по диаметру трубы для РЦ ТК Резки трубы. Необходимо проверить диаметр у ресурса
 
 ## Выберите вид дефекта
 
-![](<../../../.gitbook/assets/image (184).png>)
+![](<../../../assets/image (184).png>)
 
 Для фиксации брака необходимо обязательно указывать вид дефекта
 
@@ -26,25 +32,25 @@ description: Описание информационных сообщений
 
 Применяется: Регистрация операций окраски ->[ Учет брака на линиях окраски](../uchet-po-peredelam/registraciya-operacii-okraska/abr-okraska/uchet-braka.md#ostatki-sekcii)
 
-![](<../../../.gitbook/assets/image (269).png>)
+![](<../../../assets/image (269).png>)
 
 ## Партия ... выработана или в процессе выработки
 
 Применяется: Регистрация операций окраски ->[ Учет брака на линиях окраски](../uchet-po-peredelam/registraciya-operacii-okraska/abr-okraska/uchet-braka.md#kontrol)
 
-![](<../../../.gitbook/assets/image (253).png>)
+![](<../../../assets/image (253).png>)
 
 ## Партия поставлена в очередь на разукомплектацию
 
 Применяется: Регистрация операций окраски -> [ Учет брака на линиях окраски](../uchet-po-peredelam/registraciya-operacii-okraska/abr-okraska/uchet-braka.md#kontrol)
 
-![](<../../../.gitbook/assets/image (259).png>)
+![](<../../../assets/image (259).png>)
 
 ## Разукомплектация по заданию ХХХ в процессе обработки
 
 Применяется: Регистрация операций окраски -> [ Учет брака на линиях окраски](../uchet-po-peredelam/registraciya-operacii-okraska/abr-okraska/uchet-braka.md#kontrol)
 
-![](<../../../.gitbook/assets/image (271).png>)
+![](<../../../assets/image (271).png>)
 
 ## Задания на операцию зачистки не найдены!
 
@@ -58,7 +64,7 @@ description: Описание информационных сообщений
 
 Применяется: Формирование документа сдачи продукции -> [Готовая продукции](mes-gotovaya-produkciya/gotovaya-produkciya.md#zakladka-formirovat-dokument-sdachi)
 
-![](<../../../.gitbook/assets/image (1009).png>)
+![](<../../../assets/image (1009).png>)
 
 {% hint style="info" %}
 Система проверяет наличие укладки по продукции партии в [справочнике укладки](../../../uchet/otgruzka-produkcii/ukladka-po-dannym-lv.md)
@@ -68,7 +74,7 @@ description: Описание информационных сообщений
 
 Применяет: Исправление брака -> [Исправление брака](mes-brak-pererabotka/ispravlenie-braka/)
 
-![](<../../../.gitbook/assets/image (1019).png>)
+![](<../../../assets/image (1019).png>)
 
 {% hint style="info" %}
 Система по номеру операции не нашла действующий [Заказа на производство](../../../upravlenie-proizvodstvom/nsi-proizvodstvo/tipy-znp/s07.md)
@@ -78,7 +84,7 @@ description: Описание информационных сообщений
 
 Применяет: Работа с партиями -> [Объединение партий](razdelenie-partii/obedinenie-partii.md)
 
-![](<../../../.gitbook/assets/image (1028).png>)
+![](<../../../assets/image (1028).png>)
 
 {% hint style="info" %}
 Для объединения партий необходимо отсканировать более одной партии
@@ -90,7 +96,7 @@ description: Описание информационных сообщений
 
 Количество секций, указываемых в таблице дефектов превышает общим количеством секций во всех исправляемых радиаторах
 
-![](<../../../.gitbook/assets/image (743).png>)
+![](<../../../assets/image (743).png>)
 
 ## Очистите список бракованных единиц для выбора другой группы дефекта
 
@@ -98,17 +104,17 @@ description: Описание информационных сообщений
 
 В одной регистрации выработки могут быть дефекты только из 1 списка Видов дефектов
 
-![](<../../../.gitbook/assets/image (736).png>)
+![](<../../../assets/image (736).png>)
 
 ## Нет начала выработки на РЦ
 
 Применяет: Регистрация на трансферах -> [Закладка качество](../uchet-po-peredelam/registraciya-mekhobrabotki/registraciya-na-transferakh.md#kachestvo)
 
-![](<../../../.gitbook/assets/image (265).png>)
+![](<../../../assets/image (265).png>)
 
 ## Пустой список измерений
 
 Применяет: Регистрация на трансферах -> [Закладка качество](../uchet-po-peredelam/registraciya-mekhobrabotki/registraciya-na-transferakh.md#kachestvo)
 
-![](<../../../.gitbook/assets/image (252).png>)
+![](<../../../assets/image (252).png>)
 
