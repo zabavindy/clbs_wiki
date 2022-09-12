@@ -10,6 +10,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 # Совещания
 
+
 * [НСИ (Совещание)](nsi-soveshaniya/)
   * [Справочники совещаний](nsi-soveshaniya/spravochniki.md)
   * [Настройки доступа](nsi-soveshaniya/nastroiki-dostupa.md)
