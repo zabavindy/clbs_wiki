@@ -1,3 +1,13 @@
+---
+title: KDK
+description: 
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
+---
+
 # KDK
 
 ### Описание пакета
@@ -27,4 +37,4 @@
 | EMAIL\_HOME | E-mail домашний        |
 | DOC\_DIS    | GUID документа в 1с    |
 
-eee
+

@@ -1,5 +1,11 @@
 ---
+title: АБР_Заказы_Сбыта
 description: Описание чата в Telegram по заказам и сдаче готовой продукции по АБР
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # АБР\_Заказы\_Сбыта
