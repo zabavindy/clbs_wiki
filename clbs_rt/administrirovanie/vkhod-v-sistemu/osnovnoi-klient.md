@@ -1,5 +1,11 @@
 ---
+title: WEB клиент
 description: WEB клиент системы IT-Enterprise
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # WEB клиент
@@ -14,8 +20,8 @@ description: WEB клиент системы IT-Enterprise
 
 Выбрать объект можно при входе или при вызове смены объекта
 
-![](<../../.gitbook/assets/image (325).png>)![](<../../.gitbook/assets/image (793).png>)
+![](<../../assets/image (325).png>)![](<../../assets/image (793).png>)
 
 ## Изменение группы
 
-![](<../../.gitbook/assets/image (370).png>)
+![](<../../assets/image (370).png>)
