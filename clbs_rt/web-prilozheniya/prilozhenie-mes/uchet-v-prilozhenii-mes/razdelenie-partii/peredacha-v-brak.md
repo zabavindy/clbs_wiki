@@ -1,5 +1,11 @@
 ---
+title: Передача в брак
 description: Инструкция по передаче партий в брак
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # Передача в брак
@@ -15,7 +21,8 @@ description: Инструкция по передаче партий в брак
 ![](<../../../../.gitbook/assets/image (312).png>)
 
 {% hint style="info" %}
-Список возможных дефектов определяется по рабочему центру, выбранному в MES
+
+Список возможных дефектов определяется по рабочему центру, выбранному в MES
 {% endhint %}
 
 Для формирования документ передачи, нажать кнопку «Передача в исправимый брак». В результате будет создан документ с типом процесса [Передача в исправимый брак](../../../../upravlenie-kachestvom/dokumenty-po-uchetu-kachestva/uchet-braka/peredacha-v-brak.md) PR\_M333RS, создан [Акт несоответствия](../../../../upravlenie-kachestvom/dokumenty-po-uchetu-kachestva/uchet-braka/akt-nesootvetstviya/) и напечатан ярлык новой партии, на принтере, привязанном к РЦ
