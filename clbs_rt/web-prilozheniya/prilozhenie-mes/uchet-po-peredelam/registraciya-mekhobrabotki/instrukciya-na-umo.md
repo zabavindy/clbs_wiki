@@ -14,13 +14,13 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 Регистрация партии годных паллет. Для этого на планшете в интерфейсе «Задания» выбираем задание, согласно секционности выпущенных радиаторов, и [берем в работу](../../uchet-v-prilozhenii-mes/mes-vyrabotka/vyrabotka-produkcii.md#vzyatie-v-rabotu)
 
-![](<../../../../.gitbook/assets/image (739).png>)
+![](<../../../../assets/image (739).png>)
 
 На выходе с линии, для [выработки годных радиаторов](../../uchet-v-prilozhenii-mes/mes-vyrabotka/vyrabotka-produkcii.md#zaregistrirovat-vyrabotku) выбивается талон на полную паллету, либо не полную, при передаче смены
 
 ## Брак
 
-![](<../../../../.gitbook/assets/image (737).png>)
+![](<../../../../assets/image (737).png>)
 
 Нажатием на кнопки в верхней части вкладки, для отбора [Видов дефектов по группам](../../../../upravlenie-kachestvom/nsi/vidy-braka.md) (Литье, Мех. обработка)
 
@@ -38,7 +38,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 Вид дефектов отражается с учетом фильтра по группам дефектов на закладке Брак
 {% endhint %}
 
-![](<../../../../.gitbook/assets/image (770).png>)
+![](<../../../../assets/image (770).png>)
 
 {% hint style="info" %}
 При выработке брака остаткам присваивается учетная точка Выход ЛМО
@@ -50,4 +50,4 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 При отправке печатается ярлык с точкой Выход - ЛМО. Остальная логика работы идентична интерфейсу [Установка и брак](../../uchet-v-prilozhenii-mes/mes-vyrabotka/ustanovka-i-brak.md#otpravit-brak)
 
-![](<../../../../.gitbook/assets/image (758).png>)
+![](<../../../../assets/image (758).png>)
