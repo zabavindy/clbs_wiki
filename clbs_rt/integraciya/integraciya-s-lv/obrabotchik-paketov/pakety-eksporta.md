@@ -12,6 +12,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 ## Типы процессов
 
+
 * [Поступление товаров и услуг](../../../../uchet/postuplenie-tovarov-i-uslug/) - пакет RECEIPT (наряд на приемку)
 * [Внутреннее перемещение](../../../../uchet/peremesheniya-tovarov-1/vnutrennee-peremeshenie/), [Выдача и возврат из эксплуатации](../../../../uchet/peremesheniya-tovarov-1/materialy-v-ekspluatacii/), [Выдача со списание](../../../../uchet/peremesheniya-tovarov-1/untitled/) - пакет ORDER (при получении от LV), RECEIPT (при сдаче на склад)
 * [Передача и возврат с ответ хранение](../../../../uchet/otvet-khranenie/) - пакет ORDER (при получении от LV), RECEIPT (при сдаче на склад)
