@@ -1,5 +1,11 @@
 ---
-description: Инструкция по соответствию аналитик в 1с и IT-Enterprise
+title: Сопоставление аналитик
+description: Инструкция по соответствию аналитик в 1с и IT-Enterprise 
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # Сопоставление аналитик
