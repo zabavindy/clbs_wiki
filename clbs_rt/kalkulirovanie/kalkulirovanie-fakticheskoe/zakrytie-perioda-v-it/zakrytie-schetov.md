@@ -1,3 +1,13 @@
+---
+title: Закрытие счетов
+description: 
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
+---
+
 # Закрытие счетов
 
 * [Закрытие 25, 26 счетов](zakrytie-25-26-schetov.md)
