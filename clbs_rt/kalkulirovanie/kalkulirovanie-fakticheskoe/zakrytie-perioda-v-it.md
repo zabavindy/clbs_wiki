@@ -12,6 +12,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 ## Порядок закрытия периода
 
+
 * [Сверка остатков IT и 1с](sverka-ostatkov-it-i-1s.md)
 * [Формирование оперативной сводной справки по сдаче продукции](svodnaya-spravka-po-sdache.md)
 * [Запустить тестирование закрытия периода](otchetnyi-period.md#testirovanie-zakrytiya)
