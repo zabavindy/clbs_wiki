@@ -1,3 +1,13 @@
+---
+title: Акт пооперационного контроля
+description: 
+published: true
+date: 2022-09-13T18:49:19.234Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:09:55.261Z
+---
+
 # Акт пооперационного контроля
 
 ## Формирование
