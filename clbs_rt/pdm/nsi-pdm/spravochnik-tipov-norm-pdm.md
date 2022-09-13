@@ -1,5 +1,11 @@
 ---
+title: Типы норм (PDM)
 description: Инструкция по типам норм используемых в PDM
+published: true
+date: 2022-09-13T19:46:39.777Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:32:44.948Z
 ---
 
 # Типы норм (PDM)
