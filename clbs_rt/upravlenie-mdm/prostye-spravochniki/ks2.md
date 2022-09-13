@@ -1,5 +1,11 @@
 ---
+title: KS2
 description: Описание справочника Ресурсы. Дополнительный признак-2
+published: true
+date: 2022-09-13T19:42:53.942Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:19:52.175Z
 ---
 
 # KS2
