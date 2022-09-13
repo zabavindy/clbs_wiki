@@ -1,21 +1,11 @@
 ---
-title: Добавление страхового запаса
+title: dobavlenie-nomenklatury-strakhovogo-zapasa
 description: Инструкция по формированию строк MPS плана выпуска по номенклатуру страхового запаса
 published: true
-date: 2022-09-13T19:02:17.823Z
+date: 2022-09-13T19:03:14.915Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:25:42.946Z
----
-
----
-title: Добавление страхового запаса
-description: Инструкция по формированию строк MPS плана выпуска по номенклатуру страхового запаса
-published: true
-date: 2022-09-11T17:31:41.313Z
-tags: 
-editor: markdown
-dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # Добавление страхового запаса
