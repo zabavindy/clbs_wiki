@@ -1,3 +1,13 @@
+---
+title: Мониторы / отчеты РТ
+description: 
+published: true
+date: 2022-09-13T19:11:05.254Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:30:11.008Z
+---
+
 # Мониторы / отчеты РТ
 
 * Монитор учета
