@@ -1,5 +1,11 @@
 ---
+title: Выработка брака
 description: Документы по выработке брака
+published: true
+date: 2022-09-13T18:48:01.842Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:10:44.009Z
 ---
 
 # Выработка брака
