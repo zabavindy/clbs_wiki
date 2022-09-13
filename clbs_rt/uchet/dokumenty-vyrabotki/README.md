@@ -1,3 +1,13 @@
+---
+title: Документы выработки
+description: 
+published: true
+date: 2022-09-13T19:38:57.744Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:45:08.783Z
+---
+
 # Документы выработки
 
 * [Выработка](vyrabotka/)
