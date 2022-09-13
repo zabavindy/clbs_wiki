@@ -1,5 +1,11 @@
 ---
+title: Спецификации на закупку
 description: Управление спецификациями на закупку
+published: true
+date: 2022-09-13T19:26:31.597Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:39:49.332Z
 ---
 
 # Спецификации на закупку
