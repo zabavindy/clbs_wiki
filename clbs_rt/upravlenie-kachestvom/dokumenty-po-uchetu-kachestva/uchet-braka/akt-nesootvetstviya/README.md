@@ -1,5 +1,11 @@
 ---
+title: Акт несоответствия
 description: Инструкция по работе с актами несоответствия
+published: true
+date: 2022-09-13T18:46:55.485Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:10:12.099Z
 ---
 
 # Акт несоответствия
