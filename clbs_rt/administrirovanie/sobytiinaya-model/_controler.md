@@ -1,5 +1,5 @@
 ---
-title: Заявки на ввод ресурсов
+title: _CONTROLER
 description: Описание
 published: true
 date: 2022-09-11T17:31:41.313Z
