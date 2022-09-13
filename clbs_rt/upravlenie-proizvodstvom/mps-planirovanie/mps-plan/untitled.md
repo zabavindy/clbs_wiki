@@ -1,5 +1,11 @@
 ---
+title: Закрытие MPS
 description: Инструкция по закрытию плана производства
+published: true
+date: 2022-09-13T19:05:41.160Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:26:51.401Z
 ---
 
 # Закрытие MPS
