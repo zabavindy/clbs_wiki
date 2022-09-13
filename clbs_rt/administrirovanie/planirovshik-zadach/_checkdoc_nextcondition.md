@@ -1,5 +1,5 @@
 ---
-title: \_CHECKDOC\_NEXTCONDITION
+title: _CHECKDOC_NEXTCONDITION
 description: 
 published: true
 date: 2022-08-29T09:02:42.934Z
