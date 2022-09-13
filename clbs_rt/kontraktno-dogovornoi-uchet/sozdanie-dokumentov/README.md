@@ -1,3 +1,13 @@
+---
+title: Картотека договоров
+description: 
+published: true
+date: 2022-09-13T19:34:07.192Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:31:05.941Z
+---
+
 # Картотека договоров
 
 * [Создание договора](dogovora-i-dopolnitelnye-soglasheniya.md)
@@ -5,7 +15,7 @@
 * [Типовые договора](tipovye-dogovora.md)
 
 {% hint style="info" %}
-Логистика → Контрактно-договорной учет → Договоры → Картотека договоров
+Логистика > Контрактно-договорной учет > Договоры > Картотека договоров
 {% endhint %}
 
 ![](<../../.gitbook/assets/1 (74).png>)
