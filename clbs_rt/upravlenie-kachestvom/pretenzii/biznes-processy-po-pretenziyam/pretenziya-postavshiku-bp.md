@@ -1,3 +1,13 @@
+---
+title: Претензия поставщику (БП)
+description: 
+published: true
+date: 2022-09-13T18:52:44.251Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:12:43.633Z
+---
+
 # Претензия поставщику (БП)
 
 
