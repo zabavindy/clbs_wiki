@@ -1,5 +1,11 @@
 ---
+title: Заявка на закупку
 description: Управление заявками на закупку ТМЦ
+published: true
+date: 2022-09-13T19:27:08.429Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:40:52.639Z
 ---
 
 # Заявка на закупку
