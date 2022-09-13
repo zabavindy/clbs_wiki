@@ -1,5 +1,11 @@
 ---
+title: DO3
 description: Справочник дополнительный признак 3 для договора
+published: true
+date: 2022-09-13T13:27:35.128Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:19:35.328Z
 ---
 
 # DO3
