@@ -24,9 +24,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 Нажатием на кнопки в верхней части вкладки, для отбора [Видов дефектов по группам](../../../../upravlenie-kachestvom/nsi/vidy-braka.md) (Литье, Мех. обработка)
 
-{% hint style="info" %}
-В одной регистрации могут быть дефекты только из 1 списка. Если дефекты уже добавлены, и осуществляется попытка переключения списка, [выдается сообщение](../../uchet-v-prilozhenii-mes/informacionnye-soobsheniya.md#ochistite-spisok-brakovannykh-edinic-dlya-vybora-drugoi-gruppy-defekta)
-{% endhint %}
+>В одной регистрации могут быть дефекты только из 1 списка. Если дефекты уже добавлены, и осуществляется попытка переключения списка, [выдается сообщение](../../uchet-v-prilozhenii-mes/informacionnye-soobsheniya.md#ochistite-spisok-brakovannykh-edinic-dlya-vybora-drugoi-gruppy-defekta)
 
 ## &#x20;Качество
 
@@ -34,15 +32,15 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 ## Брак секций
 
-{% hint style="info" %}
-Вид дефектов отражается с учетом фильтра по группам дефектов на закладке Брак
-{% endhint %}
+
+>Вид дефектов отражается с учетом фильтра по группам дефектов на закладке Брак
+
 
 ![](<../../../../assets/image (770).png>)
 
-{% hint style="info" %}
-При выработке брака остаткам присваивается учетная точка Выход ЛМО
-{% endhint %}
+
+>При выработке брака остаткам присваивается учетная точка Выход ЛМО
+
 
 Остальная логика работы идентична интерфейсу [Установка и брак](../../uchet-v-prilozhenii-mes/mes-vyrabotka/ustanovka-i-brak.md)
 

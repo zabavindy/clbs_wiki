@@ -1,18 +1,23 @@
 ---
+title: Претензия по спецификации
 description: Инструкция по формированию претензии по спецификации
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # Претензия по спецификации
 
-{% hint style="info" %}
-Претензия формируется по [спецификациям](../../../../upravlenie-zakupkami/specifikaciya/) у которых сорван срок поставки ([График поставки](../../../../upravlenie-zakupkami/specifikaciya/formirovanie-grafika-postavki.md))
-{% endhint %}
+>Претензия формируется по [спецификациям](../../../../upravlenie-zakupkami/specifikaciya/) у которых сорван срок поставки ([График поставки](../../../../upravlenie-zakupkami/specifikaciya/formirovanie-grafika-postavki.md))
+
 
 Для формирования необходимо выбрать строку заголовка документа «Спецификация на закупку», нажмите F2 и выберите Сформировать Претензию
 
-![](<../../../../.gitbook/assets/unknown (14).png>)
+![](<../../../../assets/unknown (14).png>)
 
 Заполните указанные поля и нажмите добавить
 
-![](<../../../../.gitbook/assets/unknown (26).png>)
+![](<../../../../assets/unknown (26).png>)
 

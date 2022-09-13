@@ -18,8 +18,7 @@ dateCreated: 2022-08-31T09:15:40.634Z
 
 Далее вводятся количество исправленных радиаторов и список исправленных дефектов по секциям
 
-{% hint style="info" %}
-Количество секций, указываемых в таблице дефектов не должно превышать общим количеством секций во всех исправляемых радиаторах. В противном случае система выведет [сообщение](../../informacionnye-soobsheniya.md#kolichestvo-sekcii-v-tablice-bolshe-chem-v-ispravlyaemykh-radiatorakh)
-{% endhint %}
+>Количество секций, указываемых в таблице дефектов не должно превышать общим количеством секций во всех исправляемых радиаторах. В противном случае система выведет [сообщение](../../informacionnye-soobsheniya.md#kolichestvo-sekcii-v-tablice-bolshe-chem-v-ispravlyaemykh-radiatorakh)
+
 
 По кнопке Подтвердить регистрируется выработка [исправления брака](../../../../../upravlenie-kachestvom/dokumenty-po-uchetu-kachestva/uchet-braka/ispravlenie-braka.md)

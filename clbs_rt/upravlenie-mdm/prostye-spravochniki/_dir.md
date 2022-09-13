@@ -1,12 +1,18 @@
 ---
+title: _DIR
 description: Описание справочника направлений
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # \_DIR
 
 Справочник направлений согласования (SP2.\_DIR)
 
-![](<../../.gitbook/assets/image (599).png>)
+![](<../../assets/image (599).png>)
 
 Для каждой строки должны быть заполнены данные:
 

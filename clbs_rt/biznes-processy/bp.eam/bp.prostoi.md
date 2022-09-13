@@ -1,3 +1,13 @@
+---
+title: БП.Простои
+description: 
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
+---
+
 # БП.Простои
 
-![](<../../.gitbook/assets/image (51).png>)
+![](<../../assets/image (51).png>)

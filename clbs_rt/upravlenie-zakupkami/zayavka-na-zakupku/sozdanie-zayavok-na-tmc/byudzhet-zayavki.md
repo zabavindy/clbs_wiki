@@ -1,12 +1,18 @@
 ---
+title: Бюджет заявки
 description: Инструкция по формированию и контролю бюджета заявки
+published: true
+date: 2022-09-11T17:31:41.313Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:15:40.634Z
 ---
 
 # Бюджет заявки
 
 В бизнес-процесс согласования [Заявок на ТМЦ](../../../biznes-processy/upravlenie-zakupkami/bp.po-upravleniyu-potrebnostyu/zayavki-na-zakupku.md) добавлен блок «Контроль бюджета заявки»
 
-![](<../../../.gitbook/assets/0 (65).png>)
+![](<../../../assets/0 (65).png>)
 
 ## Этапы бизнес-процесса
 
