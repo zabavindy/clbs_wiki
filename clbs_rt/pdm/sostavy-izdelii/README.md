@@ -1,3 +1,13 @@
+---
+title: Составы изделий
+description: 
+published: true
+date: 2022-09-13T19:54:13.929Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:41:01.003Z
+---
+
 # Составы изделий
 
 ## Добавление строки состава
