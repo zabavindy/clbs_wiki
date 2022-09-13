@@ -1,3 +1,13 @@
+---
+title: Типы претензий
+description: 
+published: true
+date: 2022-09-13T18:54:56.240Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:13:56.935Z
+---
+
 # Типы претензий
 
 ## (A) По качеству
