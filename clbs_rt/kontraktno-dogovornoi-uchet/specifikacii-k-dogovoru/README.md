@@ -1,5 +1,11 @@
 ---
+title: Спецификации
 description: Инструкция по созданию спецификаций к договорам поставки
+published: true
+date: 2022-09-13T19:33:29.692Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:31:36.451Z
 ---
 
 # Спецификации
