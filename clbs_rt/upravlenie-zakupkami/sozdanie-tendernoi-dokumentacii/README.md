@@ -1,5 +1,11 @@
 ---
+title: Тендерная документации
 description: Управление тендерной документацией
+published: true
+date: 2022-09-13T19:23:32.560Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:38:22.855Z
 ---
 
 # Тендерная документации
