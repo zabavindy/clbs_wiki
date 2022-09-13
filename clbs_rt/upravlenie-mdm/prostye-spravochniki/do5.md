@@ -1,5 +1,11 @@
 ---
+title: DO5
 description: Справочник дополнительный признак 5 для договора
+published: true
+date: 2022-09-13T19:42:31.478Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:19:43.681Z
 ---
 
 # DO5
