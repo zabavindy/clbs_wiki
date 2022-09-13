@@ -1,5 +1,11 @@
 ---
+title: KS3
 description: Описание справочника Ресурсы. Дополнительный признак-3
+published: true
+date: 2022-09-13T19:43:16.335Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:20:00.400Z
 ---
 
 # KS3
