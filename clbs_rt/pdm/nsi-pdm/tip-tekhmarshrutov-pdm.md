@@ -1,5 +1,11 @@
 ---
+title: Тип техмаршрутов (PDM)
 description: Инструкция по типам техмаршрутов используемых в PDM
+published: true
+date: 2022-09-13T19:46:57.314Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:32:51.789Z
 ---
 
 # Тип техмаршрутов (PDM)
