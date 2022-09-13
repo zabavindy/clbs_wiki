@@ -1,3 +1,13 @@
+---
+title: PDM КПП
+description: 
+published: true
+date: 2022-09-13T19:47:19.877Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:33:06.156Z
+---
+
 # PDM КПП
 
 * [Просмотр документации](prosmotr-dokumentacii.md)
