@@ -1,3 +1,13 @@
+---
+title: Согласование
+description: 
+published: true
+date: 2022-09-13T19:30:02.002Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:29:37.911Z
+---
+
 # Согласование
 
 * [Назначение согласующих](naznachenie-soglasuyushikh.md)
