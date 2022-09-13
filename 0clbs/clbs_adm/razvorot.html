@@ -2,7 +2,7 @@
 title: Разворот комплекта от клиента на clbs.dev
 description: 
 published: true
-date: 2022-09-09T12:50:02.736Z
+date: 2022-09-13T15:23:47.390Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-08-22T09:21:33.851Z
@@ -70,7 +70,11 @@ dateCreated: 2022-08-22T09:21:33.851Z
 <p>&nbsp;</p>
 <p>Для&nbsp;Нас&nbsp;заносим&nbsp;в&nbsp;Файл&nbsp;выбранный&nbsp;порт: C:\CLBS\Порты CLBS.txt</p>
 <p>&nbsp;</p>
-<h1><strong>4. Правим конфиги Клиента</strong></h1>
+<h1>4. Правим Config.arm</h1>
+<p>C:\Program Files\IT-Enterprise\CLBSCABLE\Local\INI</p>
+<p>Указываем путь на Сетевую файловую часть</p>
+<p>CFG_NETSYS = <mark class="marker-yellow">E:\CLBS_PR\CLBSCABLE\NFP\SYSDBF\</mark></p>
+<h1><strong>5. Правим конфиги Клиента</strong></h1>
 <p>C:\Program Files\IT-Enterprise\MICRON_CLBS\CLIENT\ITClient.exe.xml</p>
 <p>Пример Файла</p>
 <p>&lt;?xml version="1.0" encoding="utf-8"?&gt;</p>
@@ -102,7 +106,7 @@ dateCreated: 2022-08-22T09:21:33.851Z
 <p>&nbsp; &lt;/system.net&gt;</p>
 <p>&lt;/configuration&gt;</p>
 <p>&nbsp;</p>
-<h1><strong>5. Подготовить и запустить службу</strong></h1>
+<h1><strong>6. Подготовить и запустить службу</strong></h1>
 <p><strong>В командной строке для создания службы (изменить имя службы, binpath, displayname),&nbsp;CMD&nbsp;запускать от имени администратора:</strong></p>
 <p>&nbsp;</p>
 <p>obj=user_adm password= a9;i6F!J2z</p>
@@ -121,12 +125,12 @@ dateCreated: 2022-08-22T09:21:33.851Z
 <p>sc config IT_Server_AEK .... параметры для изменения, как в create</p>
 <p><a href="https://dev.azure.com/CLBSDIGITAL/CLBS/_wiki/wikis/CLBS.wiki/51/Создание-службы-ИТЕ">https://dev.azure.com/CLBSDIGITAL/CLBS/_wiki/wikis/CLBS.wiki/51/Создание-службы-ИТЕ</a></p>
 <p>&nbsp;</p>
-<h1><strong>6. Подменить SessionCore&nbsp;</strong></h1>
+<h1><strong>7. Подменить SessionCore&nbsp;</strong></h1>
 <p>Запросить у Литвин или Гриценко нужную версию, посмотреть ее в свойствах файла Itnet2.Server.SessionCore.dll&nbsp;в папке сервера (C:\Program Files\IT-Enterprise\MICRON_CLBS\SERVER)</p>
 <figure class="image"><img src="/2.png"></figure>
 <p>&nbsp;</p>
-<h1><strong>7. Запустить Службу</strong></h1>
-<h1><strong>8. Создать пользователя если нету пароля</strong></h1>
+<h1><strong>8. Запустить Службу</strong></h1>
+<h1><strong>9. Создать пользователя если нету пароля</strong></h1>
 <p>В CMD&nbsp;выполнить whoami /user</p>
 <p>И Забрать SID</p>
 <figure class="image"><img src="/3.png"></figure>
@@ -135,20 +139,20 @@ dateCreated: 2022-08-22T09:21:33.851Z
 <p>WIN_USER='S-1-5-21-1247624279-2500794307-2618218875-1013'</p>
 <p>where USERID='IT_OVSS'</p>
 <p>&nbsp;</p>
-<h1><strong>9. Изготовить Лицензию. (Делает Гриценко или Литвин)</strong></h1>
+<h1><strong>10. Изготовить Лицензию. (Делает Гриценко или Литвин)</strong></h1>
 <figure class="image"><img src="/4.png"></figure>
 <p>&nbsp;</p>
-<h1><strong>9. Развернуть WebRMD</strong></h1>
+<h1><strong>11. Развернуть WebRMD</strong></h1>
 <p>E:\sites\MICRON_RMD</p>
 <p>Исправить AppSettings</p>
 <p><strong>Пример</strong></p>
 <p><strong>&lt;?xml version="1.0" standalone="yes"?&gt;</strong></p>
 <p>&lt;appSettings&gt;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <mark class="marker-yellow">&nbsp; &lt;add key="ApplicationServers" value="DBS:8170 /secure /encrypt"/&gt;</mark></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<mark class="marker-yellow"> &nbsp;&lt;add key="ApplicationServers" value="DBS:8170 /secure /encrypt"/&gt;</mark></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;add key="ApplicationServersId" value=""/&gt;</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;add key="ProjectCode" value="it_ru"/&gt;</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;add key="Iconset" value="Clbs"/&gt;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <mark class="marker-pink">&nbsp;&nbsp; &lt;add key="AllowWinAuth" value="True"/&gt;</mark> -&nbsp;Удалить&nbsp;Нахер,&nbsp;она&nbsp;рождает&nbsp;неправильный web.config</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<mark class="marker-pink"> &nbsp; &lt;add key="AllowWinAuth" value="True"/&gt;</mark> -&nbsp;Удалить&nbsp;Нахер,&nbsp;она&nbsp;рождает&nbsp;неправильный web.config</p>
 <p>&lt;/appSettings&gt;</p>
 <p>&nbsp;</p>
 <h1>Добавить приложение на IIS</h1>
