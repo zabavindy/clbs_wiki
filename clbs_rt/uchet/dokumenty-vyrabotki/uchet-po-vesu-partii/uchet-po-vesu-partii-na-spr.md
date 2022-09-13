@@ -1,3 +1,13 @@
+---
+title: Учет по весу партии на СПР
+description: 
+published: true
+date: 2022-09-13T19:40:10.475Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:45:46.087Z
+---
+
 # Учет по весу партии на СПР
 
 ## Распределение рулонной стали
