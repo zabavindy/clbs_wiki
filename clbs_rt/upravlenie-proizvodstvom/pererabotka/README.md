@@ -1,5 +1,11 @@
 ---
+title: Переработка
 description: Инструкция по переработке продукции
+published: true
+date: 2022-09-13T19:13:42.188Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:32:24.738Z
 ---
 
 # Переработка
