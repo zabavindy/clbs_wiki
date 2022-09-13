@@ -1,3 +1,13 @@
+---
+title: Расчет APS плана
+description: 
+published: true
+date: 2022-09-13T18:58:28.620Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:24:42.222Z
+---
+
 # Расчет APS плана
 
 ## Отбор строк MRP
