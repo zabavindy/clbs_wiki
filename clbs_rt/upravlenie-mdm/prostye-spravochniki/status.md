@@ -1,3 +1,13 @@
+---
+title: STATUS
+description: 
+published: true
+date: 2022-09-13T19:44:23.338Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T09:20:26.743Z
+---
+
 # STATUS
 
 Статусы заказов покупателей
