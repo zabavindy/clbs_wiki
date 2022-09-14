@@ -1,3 +1,13 @@
+---
+title: Проведение инвентаризации
+description: 
+published: true
+date: 2022-09-14T05:01:51.461Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:48:51.509Z
+---
+
 # Проведение инвентаризации
 
 * [Журнал партий инвентаризации](zhurnal-partii-inventarizacii.md)
