@@ -1,8 +1,8 @@
 ---
-title: tekhprocess-na-autsorsing
+title: Расчет аутсорсинга
 description: Инструкция по расчету норм  аутсорсинга
 published: true
-date: 2022-09-14T04:49:46.541Z
+date: 2022-09-14T04:50:10.913Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T08:39:47.162Z
