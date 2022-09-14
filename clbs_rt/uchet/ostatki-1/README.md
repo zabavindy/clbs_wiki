@@ -1,3 +1,13 @@
+---
+title: Остатки
+description: 
+published: true
+date: 2022-09-14T05:08:02.712Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:52:53.584Z
+---
+
 # Остатки
 
 * [Картотека остатков](kartoteka-ostatkov/)
