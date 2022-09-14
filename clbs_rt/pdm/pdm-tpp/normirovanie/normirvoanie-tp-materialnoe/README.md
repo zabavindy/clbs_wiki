@@ -1,3 +1,13 @@
+---
+title: Нормирование материальное
+description: 
+published: true
+date: 2022-09-14T04:44:59.574Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:37:33.422Z
+---
+
 # Нормирование материальное
 
 | Код нормы | Наименование                                                                                               |
