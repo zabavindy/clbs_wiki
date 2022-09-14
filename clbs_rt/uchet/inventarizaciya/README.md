@@ -1,3 +1,13 @@
+---
+title: Инвентаризация
+description: 
+published: true
+date: 2022-09-14T04:58:03.356Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:46:45.625Z
+---
+
 # Инвентаризация
 
 * [Алгоритм проведения инвентаризации](algoritm-provedeniya.md)
