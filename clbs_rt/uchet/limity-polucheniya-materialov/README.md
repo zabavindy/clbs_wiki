@@ -1,3 +1,13 @@
+---
+title: Лимиты получения материалов
+description: 
+published: true
+date: 2022-09-14T05:05:03.840Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:50:42.940Z
+---
+
 # Лимиты получения материалов
 
 * [Лимиты материалов для выдачи со склада](formirovanie-limitov/)
