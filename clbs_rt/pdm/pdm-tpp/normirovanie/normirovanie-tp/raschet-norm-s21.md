@@ -1,5 +1,11 @@
 ---
+title: S21 
 description: Описание основной методики расчета норм времени и расценки
+published: true
+date: 2022-09-14T04:44:33.561Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:37:03.722Z
 ---
 
 # S21 Нормы времени и расценки
