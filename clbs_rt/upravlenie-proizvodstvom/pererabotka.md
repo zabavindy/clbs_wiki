@@ -10,7 +10,7 @@ dateCreated: 2022-08-31T09:32:24.738Z
 
 # Переработка
 
-![](<../../.gitbook/assets/image (703).png>)
+![](<../assets/image (703).png>)
 
 * [Приход на забаланс по заказу](prikhod-na-zabalans-po-zakazu.md)
 * [Контроль давальческого сырья](kontrol-davalcheskogo-syrya.md)

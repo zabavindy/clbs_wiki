@@ -10,7 +10,7 @@ dateCreated: 2022-08-31T08:41:37.148Z
 
 # Актуализация норм (АБР)
 
-![](<../../../.gitbook/assets/image (83).png>)
+![](<../../assets/image (83).png>)
 
 * [Бизнес-процесс взвешивания](vzveshivanie-zagotovok-bp.md)
 * [Контроль расхода расплава](kontrol-raskhoda-rasplava/)

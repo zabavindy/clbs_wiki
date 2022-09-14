@@ -17,6 +17,5 @@ dateCreated: 2022-08-31T08:45:53.621Z
 
 При автоматической [регистрации выработки операции резка](../../../../web-prilozheniya/prilozhenie-mes/uchet-po-peredelam/registraciya-mekhobrabotki/registraciya-rezki-trub.md) списания трубы происходит по ранее рассчитанным нормам [Справочнику Расчет факт норм](spravochnik-raschet-fakt-norm.md)
 
-{% hint style="info" %}
-Если условия выполнены, то для фактического списания трубы рассчитывается нормы от веса партии поставщика, в противном случаи рассчитывается по нормам [техмаршрута](../../../../pdm/pdm-tpp/tekhnologicheskaya-podgotovka-proizvodstva/sozdanie-tekhprocessa/)
-{% endhint %}
+>Если условия выполнены, то для фактического списания трубы рассчитывается нормы от веса партии поставщика, в противном случаи рассчитывается по нормам [техмаршрута](../../../../pdm/pdm-tpp/tekhnologicheskaya-podgotovka-proizvodstva/sozdanie-tekhprocessa/)
+

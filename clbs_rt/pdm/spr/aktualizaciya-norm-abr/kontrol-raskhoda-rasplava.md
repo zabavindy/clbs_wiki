@@ -10,7 +10,7 @@ dateCreated: 2022-08-31T08:41:44.305Z
 
 # Контроль расхода расплава
 
-![](<../../../../.gitbook/assets/image (504).png>)
+![](<../../../assets/image (504).png>)
 
 * [Взвешивание](vzveshivanie-zagotovok/)
 * [Графики](dashbord-po-vzveshivaniyu.md)

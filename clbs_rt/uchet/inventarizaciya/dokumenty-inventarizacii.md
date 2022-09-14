@@ -10,7 +10,7 @@ dateCreated: 2022-08-31T08:47:00.396Z
 
 # Документы инвентаризации
 
-![](<../../../.gitbook/assets/image (476).png>)
+![](<../../assets/image (476).png>)
 
 * [Инвентаризационная опись](inventarizacionnaya-opis.md)
 * [Отклонение инвентаризации](otklonenie-inventarizacii.md)

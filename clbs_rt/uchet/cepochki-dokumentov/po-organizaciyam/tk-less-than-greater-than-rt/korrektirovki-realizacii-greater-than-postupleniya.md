@@ -10,6 +10,6 @@ dateCreated: 2022-08-31T08:44:07.868Z
 
 # Корректировки реализации -> поступления
 
-![](<../../../../../.gitbook/assets/image (689).png>)
+![](<../../../../assets/image (689).png>)
 
 Инструкция -> [Корректировочные документы](korrektirovochnye-dokumenty.md)

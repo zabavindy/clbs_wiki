@@ -10,7 +10,7 @@ dateCreated: 2022-08-31T09:28:27.040Z
 
 # Рабочие центры
 
-![](<../../../.gitbook/assets/image (718).png>)
+![](<../../assets/image (718).png>)
 
 ## Закладки
 
