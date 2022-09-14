@@ -1,3 +1,13 @@
+---
+title: PDM ТПП
+description: 
+published: true
+date: 2022-09-14T04:39:27.955Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:35:07.404Z
+---
+
 # PDM ТПП
 
 * [Бизнес-процесс ТД](soglasovanie-td/)
