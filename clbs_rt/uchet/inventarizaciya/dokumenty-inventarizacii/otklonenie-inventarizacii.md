@@ -1,3 +1,13 @@
+---
+title: Отклонение инвентаризации
+description: 
+published: true
+date: 2022-09-14T05:01:09.620Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:48:21.905Z
+---
+
 # Отклонение инвентаризации
 
 ## Формирование вручную
