@@ -1,3 +1,13 @@
+---
+title: Приоритеты техмаршрутов
+description: 
+published: true
+date: 2022-09-14T04:48:02.881Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:38:47.006Z
+---
+
 # Приоритеты техмаршрутов
 
 ![](<../../../../.gitbook/assets/image (772).png>)
