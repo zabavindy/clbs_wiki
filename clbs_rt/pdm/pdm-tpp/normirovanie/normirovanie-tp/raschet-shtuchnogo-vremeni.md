@@ -1,3 +1,13 @@
+---
+title: Расчет штучного времени
+description: 
+published: true
+date: 2022-09-14T04:44:15.558Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-31T08:37:11.223Z
+---
+
 # Расчет штучного времени
 
 ## Разобрать!!!
