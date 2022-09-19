@@ -2,17 +2,77 @@
 title: Установка MES
 description: 
 published: true
-date: 2022-09-16T08:46:08.246Z
+date: 2022-09-19T10:29:59.283Z
 tags: mes
 editor: ckeditor
 dateCreated: 2022-09-15T15:00:00.570Z
 -->
 
-<h1>MES на IIS</h1>
-<p>111</p>
+<h1><strong>Развертывание веб-приложения&nbsp;MES&nbsp;</strong></h1>
+<p>Для связи с БД в MES, необходимо развернуть GraphQL&nbsp;сервер на IIS.</p>
+<p>Первым делом ставим:</p>
+<ul>
+  <li><strong>Вotnet-hosting (</strong><a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-6.0.9-windows-hosting-bundle-installer">https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-6.0.9-windows-hosting-bundle-installer</a><strong>)</strong></li>
+  <li>ASP SDK 3.1 -&nbsp;<a href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1">https://dotnet.microsoft.com/en-us/download/dotnet/3.1</a></li>
+</ul>
+<p>В случае если 3.1 не помог, ставим 6 версию</p>
+<h1><strong>Установка&nbsp;GraphQL.</strong></h1>
+<ol>
+  <li>Создаем папку GraphQL, в каталоге, где хранятся ваши приложения&nbsp;<br>(Пример E:\sites\graphql)</li>
+  <li>Распаковываем архив GQ в ранее созданную папку&nbsp;</li>
+  <li>Создаем веб приложение на IIS&nbsp;</li>
+</ol>
+<figure class="image"><img src="/clbs/mes/1.png"></figure>
 <p>&nbsp;</p>
-<h1>Ссылки</h1>
+<p>Пул приложений выбираем .NET 4.5&nbsp;</p>
+<p>На этом этапе могут возникнуть пляски с бубном, попереключать тогда пул приложений, пока не удостоверишься, что работает.</p>
+<p>Подтверждением такое вот окно при переходе из приложения</p>
+<figure class="image"><img src="/clbs/mes/2.png"></figure>
+<p>&nbsp;</p>
+<p><strong>Физический путь, путь до папки в которую распаковали архив&nbsp;GQ</strong></p>
+<h1>Следующим шагом, нужно уже в развернутом приложении изменить строку подключения к БД:</h1>
+<ul>
+  <li>Заходим в папку с развернутым приложением и находим файл <strong>appsettings</strong></li>
+</ul>
+<p>В этом файле находим строку</p>
+<p><strong>&nbsp;ConnectionString</strong></p>
+<figure class="image"><img src="/clbs/mes/3.png"></figure>
+<p>&nbsp;</p>
+<p>изменяем строку подключения, прописываем свой комплект.&nbsp;<br><br>&nbsp;</p>
+<ol>
+  <li>Проверяем сервер на работоспособность.&nbsp;</li>
+</ol>
+<p><a href="https://localhost/graphql">https://localhost/graphql</a></p>
+<p>&nbsp;</p>
+<h1><strong>Установка&nbsp;MES</strong></h1>
+<p><mark class="marker-yellow"><strong>Важно сохранять пути как написано тут, много хард кода, если&nbsp;webapps&nbsp;или&nbsp;MES&nbsp;переименовывать, то ручками блокнотом в коде приложения исправлять</strong></mark></p>
+<ol>
+  <li>Создаем на сервере каталог веб приложений <strong>webapps,&nbsp;</strong>внутри создаем папку<strong> с названием&nbsp;MES&nbsp;</strong>и туда распаковываем архив MES.&nbsp;</li>
+</ol>
+<p><strong>Создаем пул приложений в&nbsp;IIS</strong></p>
+<figure class="image"><img src="/clbs/mes/4.png"></figure>
+<p>&nbsp;</p>
+<ol>
+  <li>Создаем веб приложение. Указываем путь до <strong>webapps</strong>!</li>
+</ol>
+<figure class="image"><img src="/clbs/mes/5.png"></figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Находим к каталоге приложения&nbsp;<strong>MES</strong>&nbsp;&nbsp;файл&nbsp;<strong>config</strong> (@\webapps\MES ). Выставляем следующие параметры</p>
+<p>В Конфиге не забыть поставить правильную ссылку на GQ</p>
+<p>window.myConfig= {</p>
+<p>&nbsp; GrapgQlUrl: '/graphql/',</p>
+<p>&nbsp; BASE_URL: '/webapps/',</p>
+<p>&nbsp; WsUrl: '/ws/api/',</p>
+<p>&nbsp; SignalRUrl: '/ws/signalr/hubs'</p>
+<p>}</p>
+<figure class="image"><img src="/clbs/mes/7.png"></figure>
+<h1>(Прочее) и Ссылки</h1>
 <p>Киевская Инструкция Ее Любезно предоставил АВ&nbsp;</p>
 <p><a href="https://disk.yandex.ru/i/L9DHVO0iR5mkhg">https://disk.yandex.ru/i/L9DHVO0iR5mkhg</a></p>
 <p>Запись совещания с Кузнецовым М</p>
 <p><a href="https://disk.yandex.ru/i/oiQ0RBcHNY-v1A">https://disk.yandex.ru/i/oiQ0RBcHNY-v1A</a></p>
+<p>Тестовая Инструкция в Формате Word</p>
+<p><a href="https://disk.yandex.ru/i/jrhSut2kbNg38g">https://disk.yandex.ru/i/jrhSut2kbNg38g</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
