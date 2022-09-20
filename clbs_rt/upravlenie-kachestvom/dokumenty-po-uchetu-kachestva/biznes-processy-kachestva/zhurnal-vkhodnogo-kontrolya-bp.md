@@ -2,7 +2,7 @@
 title: Журнал входного контроля (БП)
 description: Бизнес-процесс документа журнал входного контроля
 published: true
-date: 2022-09-20T13:51:57.439Z
+date: 2022-09-20T13:54:09.207Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:09:39.100Z
