@@ -2,7 +2,7 @@
 title: Совещания
 description: 
 published: true
-date: 2022-09-21T06:26:23.596Z
+date: 2022-09-21T06:30:22.734Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-12T12:12:03.435Z
@@ -16,5 +16,5 @@ dateCreated: 2022-09-12T12:12:03.435Z
   * [Настройки доступа](nsi-soveshaniya/nastroiki-dostupa.md)
 * [Создание совещания](sozdanie-soveshaniya.md)
 * [Проведение совещания](provedenie-soveshaniya.md)
-	* [Повестка для принятия решения] (http://wiki.clbs.digital/ru/clbs_rt/upravlenie/soveshaniya/provedenie-soveshaniya#повестка-для-принятия-решения)
+  <li><a href="http://wiki.clbs.digital/ru/clbs_rt/upravlenie/soveshaniya/provedenie-soveshaniya#повестка-для-принятия-решения">Повестка для принятия решения</a></li>
 * [Контроль задач](kontrol-zadach.md)
