@@ -2,8 +2,8 @@
 title: Заказы сбыта (БП)
 description: Описание бизнес-процесса управление заказами сбыта
 published: true
-date: 2022-09-13T18:59:41.736Z
-tags: 
+date: 2022-09-22T08:02:14.993Z
+tags: бп, заказы сбыта
 editor: markdown
 dateCreated: 2022-08-31T09:25:07.759Z
 ---
