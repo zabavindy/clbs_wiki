@@ -1,0 +1,605 @@
+<!--
+title: НСИ нормативной калькуляции (001)
+description: 
+published: true
+date: 2022-09-30T12:11:51.777Z
+tags: 
+editor: ckeditor
+dateCreated: 2022-09-30T12:11:51.777Z
+-->
+
+<p>&nbsp;</p>
+<figure class="table" style="width:853pt;">
+  <table>
+    <tbody>
+      <tr>
+        <td style="height:31.0pt;width:115pt;">
+          <p style="text-align:center;"><strong>Статья калькуляции</strong></p>
+        </td>
+        <td style="border-left:none;width:158pt;">
+          <p style="text-align:center;"><strong>Статья системы</strong></p>
+        </td>
+        <td style="border-left:none;width:387pt;" colspan="2">
+          <p style="text-align:center;"><strong>НСИ</strong></p>
+        </td>
+        <td style="border-left:none;width:193pt;">
+          <p style="text-align:center;"><strong>Описание&nbsp;</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="height:43.5pt;">&nbsp;</td>
+        <td><i>СтоимМатБзОтх</i></td>
+        <td style="width:192pt;">Составы изделий&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">Материалы не группируются - каждая строка состава отдельно. Количество без отходов из состава</td>
+      </tr>
+      <tr>
+        <td style="height:29.5pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Цена материала&nbsp;</td>
+        <td style="width:195pt;">тип цены "ПП"</td>
+        <td style="width:193pt;">Можно ввести цену в калькуляции ("Ценник")</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:43.5pt;width:115pt;">Итоговая сумма на материалы:</td>
+        <td><i>СтоимМатОтход</i></td>
+        <td style="width:192pt;">Составы изделий&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">Материалы не группируются - каждая строка состава отдельно. Количество с отходами из состава</td>
+      </tr>
+      <tr>
+        <td style="height:37.5pt;width:115pt;">Транспортно-заготовительные расходы:</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Цена материала&nbsp;</td>
+        <td style="width:195pt;">тип цены "ПП"</td>
+        <td style="width:193pt;">Можно ввести цену в калькуляции ("Ценник")</td>
+      </tr>
+      <tr>
+        <td style="height:72.5pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Классификатор ресурсов. Спец.код "Завод"</td>
+        <td style="width:195pt;">Группа "W - Типопредставители для калькулирования", "W01 - Типопредставители для калькулирования", "W01000 - Завод". Код = "W01000000000001 - Завод"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:44.0pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Нормы на материалы "Коэффициент отвлечения" (ПЭО)" . Коэф. "Коэф. ТЗР"&nbsp;</td>
+        <td style="width:195pt;">тип норм - 753, коэф.10</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:37.5pt;width:115pt;">СУММА НА ВОЗВРАТНЫЕ ОТХОДЫ:</td>
+        <td><i>СтоимВозвОтх</i></td>
+        <td style="width:192pt;">Составы изделий&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Нормы драгметалов&nbsp;</td>
+        <td style="width:195pt;">тип норм - 0DM</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Цена возврат.отходов&nbsp;</td>
+        <td style="width:195pt;">тип цены "СР"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">Сырье и материалы</td>
+        <td><i>Сырье и основные материалы</i></td>
+        <td style="width:192pt;"><i>СтоимМатОтход</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;"><i>СтоимВозвОтх</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">&nbsp;</td>
+        <td><i>ЗП ОПР итого с премией</i></td>
+        <td><i>ЗП ОПР&nbsp;</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Классификатор ресурсов. Спец.код "ФОТ"</td>
+        <td style="width:195pt;">Группа "Прочие". Код ="ЯЯ0000000000001"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Нормы - "Процент ЕСН, коэф.ФОТ" . Коэф "Коэф.премии"</td>
+        <td style="width:195pt;">тип норм - 559, коэф.7</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:43.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Нормы - "Процент премии по группам продукции"</td>
+        <td style="width:195pt;">тип норм - 510, норма</td>
+        <td style="width:193pt;">Нормы отбираются по дате калькуляции (временная таблица связи набора данных)</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Постоянный коэф = 1.4</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.5pt;width:115pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Процент ЕСН, коэф.ФОТ" . Коэф "Коэф.увеличения ФОТ"</td>
+        <td style="width:195pt;">тип норм - 559, коэф.5</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:37.5pt;width:115pt;">Доп. зарплата производственных рабочих</td>
+        <td><i>ЗП ОПР дополнительная</i></td>
+        <td style="width:192pt;"><i>ЗП ОПР итого с премией</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Классификатор ресурсов. Спец.код "ФОТ"</td>
+        <td style="width:195pt;">Группа "Прочие". Код ="ЯЯ0000000000001"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.5pt;width:115pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Процент ЕСН, коэф.ФОТ" . Коэф "Коэф.доп.зарплаты"</td>
+        <td style="width:195pt;">тип норм - 559, коэф 8</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:25.0pt;width:115pt;">Отчисления на соцстрах</td>
+        <td><i>ЗП ОПР соц-страх</i></td>
+        <td style="width:192pt;"><i>ЗП ОПР итого с премией</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;"><i>ЗП ОПР дополнительная</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Классификатор ресурсов. Спец.код "ФОТ"</td>
+        <td style="width:195pt;">Группа "Прочие". Код ="ЯЯ0000000000001"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.5pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Процент ЕСН, коэф.ФОТ" . Коэф "Коэф.отчисл.соц.страх."</td>
+        <td style="width:195pt;">тип норм - 559, коэф 9</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">Прямые расходы</td>
+        <td><i>Прямые расходы итого</i></td>
+        <td style="width:192pt;"><i>СтоимМатОтход</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;"><i>СтоимВозвОтх</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;"><i>ЗП ОПР итого с премией</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;"><i>ЗП ОПР дополнительная</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;"><i>ЗП ОПР соц-страх</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:25.0pt;width:115pt;">Общепроизводственные расходы</td>
+        <td><i>Общепроизводственные</i></td>
+        <td style="width:192pt;"><i>ЗП ОПР итого с премией</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Классификатор ресурсов. Спец.код "ФОТ"</td>
+        <td style="width:195pt;">Группа "Прочие". Код ="ЯЯ0000000000001"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.5pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Процент ЕСН, коэф.ФОТ" . Коэф "Коэф.общепроизв."</td>
+        <td style="width:195pt;">тип норм - 559, коэф 11</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:25.0pt;width:115pt;">Производственная себестоиомсть&nbsp;</td>
+        <td><i>Проиводственная себестоиомсть&nbsp;</i></td>
+        <td style="width:192pt;"><i>Прямые расходы</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;"><i>Общепроизводственные расходы</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:25.0pt;width:115pt;">Внепроизводственные расходы</td>
+        <td><i>Внепроизводственные расходы</i></td>
+        <td><i>Производственная себестоиомсть&nbsp;</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Классификатор ресурсов. Спец.код "ФОТ"</td>
+        <td style="width:195pt;">Группа "Прочие". Код ="ЯЯ0000000000001"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.5pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Процент ЕСН, коэф.ФОТ" . Коэф "Коэф.внепроизвосдт"</td>
+        <td style="width:195pt;">тип норм - 559, коэф 13</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:25.0pt;width:115pt;">Общехозяйственные расходы (АУР)</td>
+        <td><i>Административно-управленческие расходы</i></td>
+        <td style="width:192pt;"><i>ЗП ОПР итого с премией</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Классификатор ресурсов. Спец.код "ФОТ"</td>
+        <td style="width:195pt;">Группа "Прочие". Код ="ЯЯ0000000000001"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.5pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Процент ЕСН, коэф.ФОТ" . Коэф "Коэф.АУР"</td>
+        <td style="width:195pt;">тип норм - 559, коэф 12</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">Полная себестоимость</td>
+        <td><i>Полная себестоимость</i></td>
+        <td style="width:192pt;"><i>Производственная себестоимость&nbsp;</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;"><i>Администритивно-управленческие расходы</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;"><i>Внепроизводственные расходы</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">Рентабельность</td>
+        <td><i>Рентабельность</i></td>
+        <td style="width:192pt;"><i>Полная себестоимость</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;"><i>Сырье и основные материалы</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:82.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Классификатор ресурсов. Спец.код "Завод"</td>
+        <td style="width:195pt;">Группа "W - Типопредставители для калькулирования", "W01 - Типопредставители для калькулирования", "W01000 - Завод". Код = "W01000000000001 - Завод"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:31.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Фасета "Вид приемки" (ВПДР) в коде ресурса</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:43.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Нормы - "Нормы на материалы "Коэффициент отвлечения" (ПЭО)" . Коэф. "К рентабельности материалы"&nbsp;</td>
+        <td style="width:195pt;">тип норм - 753, коэф.11</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Нормы - "Нормы на материалы "Коэффициент отвлечения" (ПЭО)" . Коэф. "К. рентабельности себестоимость"&nbsp;</td>
+        <td style="width:195pt;">тип норм - 753, коэф.12</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:44.0pt;width:115pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Нормы на материалы "Коэффициент отвлечения" (ПЭО)" . Коэф. "К. рентабельности ОТК"&nbsp;</td>
+        <td style="width:195pt;">тип норм - 753, коэф.13</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">&nbsp;</td>
+        <td><i>Рентабельность ОТК ГОЗ</i></td>
+        <td style="width:192pt;"><i>Полная себестоимость</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">Рассчитывается только для вида приемки "ОТК".&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;"><i>Сырье и основные материалы</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:72.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Классификатор ресурсов. Спец.код "Завод"</td>
+        <td style="width:195pt;">Группа "W - Типопредставители для калькулирования", "W01 - Типопредставители для калькулирования", "W01000 - Завод". Код = "W01000000000001 - Завод"</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Фасета "Вид приемки" (ВПДР) в коде ресурса</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:43.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">Нормы - "Нормы на материалы "Коэффициент отвлечения" (ПЭО)" . Коэф. "К рентабельности материалы"&nbsp;</td>
+        <td style="width:195pt;">тип норм - 753, коэф.11</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:58.5pt;width:115pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Нормы на материалы "Коэффициент отвлечения" (ПЭО)" . Коэф. "К. рентабельности себестоимость"&nbsp;</td>
+        <td style="width:195pt;">тип норм - 753, коэф.12</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:14.5pt;width:115pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">Базовая цена без НДС</td>
+        <td><i>Цена базовая&nbsp;</i></td>
+        <td style="width:192pt;"><i>Полная себестоимость</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">Утверждается в прайс-лист с типом цены П3</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;"><i>Рентабельность</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">Базовая цена ОТК ГОЗ</td>
+        <td><i>Цена базовая ОТК ГОЗ</i></td>
+        <td style="width:192pt;"><i>Полная себестоимость</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">Рассчитывается только для вида приемки ОТК</td>
+      </tr>
+      <tr>
+        <td style="height:29.5pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;"><i>Рентабельность ОТК ГОЗ</i></td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">Утверждается в прайс-лист с типом цены ПГ</td>
+      </tr>
+      <tr>
+        <td style="height:15.0pt;">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td style="width:192pt;">&nbsp;</td>
+        <td style="width:195pt;">&nbsp;</td>
+        <td style="width:193pt;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.0pt;width:115pt;">Базовая цена прошлого периода</td>
+        <td><i>Цена базовая прошлого периода</i></td>
+        <td style="width:192pt;">Ценник. Прайс-лист</td>
+        <td style="width:195pt;">Тип цены - П3</td>
+        <td style="width:193pt;">Отобрать последнюю цену прошого года.&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="height:29.5pt;">&nbsp;</td>
+        <td><i>&nbsp;</i></td>
+        <td style="width:192pt;">Нормы - "Индекс-дефлятор". Норма констр.</td>
+        <td style="width:195pt;">тип норм - 755, к.норма</td>
+        <td style="width:193pt;">Текущий год определяется по дате документа-калькуляции</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
